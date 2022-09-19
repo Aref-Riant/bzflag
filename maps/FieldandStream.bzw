@@ -1,0 +1,1556 @@
+# Field and Stream by bamf.
+# GM and Stealth are absolute necessities here.  Stealth is a blast in the river.
+# One of the crow's nests has a platform in the treetop (pyramid) to hide with GM.
+
+#!name River-1
+pyramid
+position -310 318 6
+rotation 0
+size 90 60 0.1
+end
+
+#!name Wall-1a
+box
+position -310 379 0
+rotation 0
+size 90 1 7
+end
+
+#!name Wall-1b
+box
+position -370 257 0
+rotation 0
+size 30 1 7
+end
+
+#!name River-2
+pyramid
+position -280 100 6
+rotation 0
+size 60 200 0.1
+end
+
+#!name Wall-2a
+box
+position -341 79 0
+rotation 0
+size 1 179 7
+end
+
+#!name Wall-2b
+box
+position -219 164 0
+rotation 0
+size 1 216 7
+end
+
+#!name River-3
+pyramid
+position -191.5 -163.5 6
+rotation 45
+size 60 148.5 0.1
+end
+
+#!name Wall-3a
+box
+position -174 -97 0
+rotation 45
+size 1 64 7
+end
+
+#!name wall-3b
+box
+position -235 -204.5 0
+rotation 45
+size 1 150 7
+end
+
+#!name River-4
+pyramid
+position -24 -121 6
+rotation 45
+size 100 60 0.1
+end
+
+#!name wall-4a
+box
+position -19.5 -202.5 0
+rotation -45
+size 1 155 7
+end
+
+#!name wall-4b
+box
+position -95.5 -109 0
+rotation -45
+size 1 48 7
+end
+
+#!name River-5
+pyramid
+position 37 108 6
+rotation -45
+size 60 200 0.1
+end
+
+#!name wall-5a
+box
+position 46.5 -50.7 0
+rotation 45
+size 1 60 7
+end
+
+#!name wall-5b
+box
+position -105 -33 0
+rotation 45
+size 1 60 7
+end
+
+#!name River-6
+pyramid
+position 246 97 6
+rotation 45
+size 60 100 0.1
+end
+
+
+#!name wall-6a
+box
+position -5 150.4 0
+rotation -45
+size 1 200.5 7
+end
+
+#!name wall-6b
+box
+position 71 57.3 0
+rotation -45
+size 1 93.8 7
+end
+
+#!name River-7
+pyramid
+position 262.5 -11 6
+rotation 68
+size 110 60 0.1
+end
+
+#!name wall-7a
+box
+position 177.9 81.6 0
+rotation 45
+size 1 59 7
+end
+
+#!name wall-7b
+box
+position 248 180.7 0
+rotation 45
+size 1 158.5 7
+end
+
+#!name River-8
+pyramid
+position 157 -170.4 6
+rotation 45
+size 109.8 60 0.1
+end
+
+#!name wall-8a
+box
+position 317.4 -33.5 0
+rotation -22
+size 1 110.9 7
+end
+
+#!name wall-8b
+box
+position 197 -14 0
+rotation -22
+size 1 59 7
+end
+
+#!name River-9
+pyramid
+position 96.7 -265.8 6
+rotation 0
+size 59 60 0.1
+end
+
+#!name Wall-9a
+box
+position 216 -196 0
+rotation -45
+size 1 85 7
+end
+
+#!name Wall-9b
+box
+position 106.7 -136.6 0
+rotation -45
+size 1 97 7
+end
+
+#!name River-10
+pyramid
+position 219 -340 6
+rotation 0
+size 181 60 0.1
+end
+
+#!name Wall-10a
+box
+position 38 -302.2 0
+rotation 0
+size 1 97.8 7
+end
+
+#!name Wall-10b
+box
+position 156.1 -268.4 0
+rotation 0
+size 1 13 7
+end
+
+#!name Wall-11
+box
+position 278 -280.2 0
+rotation 0
+size 122 1 7
+end
+
+#!name log
+box
+position -198 -158.5 5.5
+rotation 0
+size 1 10 1
+end
+
+#!name log
+box
+position -243.5 -48 5.5
+rotation 0
+size 1 10 1
+end
+
+#!name log
+box
+position -236.5 -132.5 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position -150 -190 5.5
+rotation -25
+size 1 10 1
+end
+
+#!name log
+box
+position -298.5 -84 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position -295.5 73 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position -295.5 73 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position -51 -181.5 5.5
+rotation -25
+size 1 10 1
+end
+
+#!name log
+box
+position -80 -144 5.5
+rotation -25
+size 1 10 1
+end
+
+#!name log
+box
+position -126.5 -263.5 5.5
+rotation -25
+size 1 10 1
+end
+
+#!name log
+box
+position -263 -100.5 5.5
+rotation -25
+size 1 10 1
+end
+
+#!name log
+box
+position -298.5 -17 5.5
+rotation 30
+size 1 10 1
+end
+
+#!name log
+box
+position -244 29.5 5.5
+rotation 30
+size 1 10 1
+end
+
+#!name log
+box
+position -245.5 128.5 5.5
+rotation 30
+size 1 10 1
+end
+
+#!name log
+box
+position -306.5 211 5.5
+rotation 30
+size 1 10 1
+end
+
+#!name log
+box
+position -267.5 282.5 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position -253 181 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position -362.5 318 5.5
+rotation 75
+size 1 10 1
+end
+
+#!name log
+box
+position -318 342 5.5
+rotation 75
+size 1 10 1
+end
+
+#!name log
+box
+position -270 110 5.5
+rotation 75
+size 1 10 1
+end
+
+#!name log
+box
+position -270 110 5.5
+rotation 75
+size 1 10 1
+end
+
+#!name log
+box
+position -207.5 -178 5.5
+rotation -86
+size 1 10 1
+end
+
+#!name log
+box
+position -182 -126 5.5
+rotation -86
+size 1 10 1
+end
+
+#!name log
+box
+position -17.5 -168 5.5
+rotation -86
+size 1 10 1
+end
+
+#!name log
+box
+position 19 -119 5.5
+rotation 86
+size 1 10 1
+end
+
+#!name log
+box
+position -37 -103.5 5.5
+rotation 10
+size 1 10 1
+end
+
+#!name log
+box
+position -3.5 -71 5.5
+rotation 10
+size 1 10 1
+end
+
+#!name log
+box
+position 50 -87.5 5.5
+rotation 10
+size 1 10 1
+end
+
+#!name log
+box
+position -68.5 -15.5 5.5
+rotation 65
+size 1 10 1
+end
+
+#!name log
+box
+position -47.5 42 5.5
+rotation 65
+size 1 10 1
+end
+
+#!name log
+box
+position -36 -7 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position -96.5 -201 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position 58 -226.5 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position 159 -315 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position 180.5 -150 5.5
+rotation 25
+size 1 10 1
+end
+
+#!name log
+box
+position 238.5 -32 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 304 32 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 225.5 118 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 95.5 152 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 139.5 228.5 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 14 89 5.5
+rotation 40
+size 1 10 1
+end
+
+#!name log
+box
+position 59.5 156 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position 187 171 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position 270 4.5 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position 268 -68 5.5
+rotation 90
+size 1 10 1
+end
+
+#!name log
+box
+position 158 -210.5 5.5
+rotation 180
+size 1 10 1
+end
+
+#!name log
+box
+position 63.5 -278.5 5.5
+rotation 180
+size 1 10 1
+end
+
+#!name log
+box
+position 200 -341.5 5.5
+rotation 180
+size 1 10 1
+end
+
+#!name log
+box
+position 293.5 -339.5 5.5
+rotation 280
+size 1 10 1
+end
+
+#!name log
+box
+position 307 -364 5.5
+rotation 280
+size 1 10 1
+end
+
+#!name log
+box
+position 86.5 -341.5 5.5
+rotation 280
+size 1 10 1
+end
+
+#!name log
+box
+position 115.5 -229.5 5.5
+rotation 280
+size 1 10 1
+end
+
+#!name log
+box
+position 336.5 -371 5.5
+rotation 280
+size 1 10 1
+end
+
+#!name platformbase1
+box
+position 130 10 0
+rotation 0
+size 2 2 84
+end
+
+#!name platformladder1
+box
+position 130 10 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder1
+box
+position 130 10 20
+rotation 90
+size 8 40 1
+end
+
+
+#!name platformladder1
+box
+position 130 10 30
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder1
+box
+position 130 10 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder1
+box
+position 130 10 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder1
+box
+position 130 10 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop1
+box
+position 130 10 74
+rotation 0
+size 18 18 1
+end
+
+#!name platformtop1
+box
+position 130 10 84
+rotation 0
+size 6 6 1
+end
+
+#!name treetop1
+pyramid
+position 130 10 84
+rotation 0
+size 14 14 30
+end
+
+#!name platformbase2
+box
+position -85 285 0
+rotation 0
+size 2 2 94
+end
+
+#!name platformladder2
+box
+position -85 285 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder2
+box
+position -85 285 20
+rotation 90
+size 8 40 1
+end
+
+
+#!name platformladder2
+box
+position -85 285 30
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder2
+box
+position -85 285 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder2
+box
+position -85 285 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder2
+box
+position -85 285 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop2
+box
+position -85 285 74
+rotation 0
+size 18 18 1
+end
+
+#!name treetop2
+pyramid
+position -85 285 94
+rotation 0
+size 14 14 30
+end
+
+#!name platformbase3
+box
+position -143 -60 0
+rotation 0
+size 2 2 94
+end
+
+#!name platformladder3
+box
+position -143 -60 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder3
+box
+position -143 -60 20
+rotation 90
+size 8 40 1
+end
+
+
+#!name platformladder3
+box
+position -143 -60 30
+rotation 03
+size 8 40 1
+end
+
+#!name platformladder3
+box
+position -143 -60 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder3
+box
+position -143 -60 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder3
+box
+position -143 -60 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop3
+box
+position -143 -60 74
+rotation 0
+size 18 18 1
+end
+
+#!name treetop3
+pyramid
+position -143 -60 94
+rotation 0
+size 14 14 30
+end
+
+#!name platformbase4
+box
+position -293 -311 0
+rotation 0
+size 2 2 94
+end
+
+#!name platformladder4
+box
+position -293 -311 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder4
+box
+position -293 -311 20
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder4
+box
+position -293 -311 30
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder4
+box
+position -293 -311 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder4
+box
+position -293 -311 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder4
+box
+position -293 -311 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop4
+box
+position -293 -311 74
+rotation 0
+size 18 18 1
+end
+
+#!name treetop4
+pyramid
+position -293 -311 94
+rotation 0
+size 14 14 30
+end
+
+#!name platformbase5
+box
+position 301 -221 0
+rotation 0
+size 2 2 94
+end
+
+#!name platformladder5
+box
+position 301 -221 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder5
+box
+position 301 -221 20
+rotation 90
+size 8 40 1
+end
+
+
+#!name platformladder5
+box
+position 301 -221 30
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder5
+box
+position 301 -221 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder5
+box
+position 301 -221 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder5
+box
+position 301 -221 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop5
+box
+position 301 -221 74
+rotation 0
+size 18 18 1
+end
+
+#!name treetop5
+pyramid
+position 301 -221 94
+rotation 0
+size 14 14 30
+end
+
+#!name platformbase6
+box
+position 306 302 0
+rotation 0
+size 2 2 94
+end
+
+#!name platformladder6
+box
+position 306 302 10
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder6
+box
+position 306 302 20
+rotation 90
+size 8 40 1
+end
+
+
+#!name platformladder6
+box
+position 306 302 30
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder6
+box
+position 306 302 40
+rotation 90
+size 8 40 1
+end
+
+#!name platformladder6
+box
+position 306 302 50
+rotation 0
+size 8 40 1
+end
+
+#!name platformladder6
+box
+position 306 302 60
+rotation 90
+size 8 40 1
+end
+
+#!name platformtop6
+box
+position 306 302 74
+rotation 0
+size 18 18 1
+end
+
+#!name treetop6
+pyramid
+position 306 302 94
+rotation 0
+size 14 14 30
+end
+
+#!name Box
+box
+position -60.5 -349 0
+rotation 45
+size 20 20 10
+end
+
+#!name Box
+box
+position -338 -197.5 0
+rotation 78
+size 30 20 14
+end
+
+#!name Box
+box
+position -208.5 -353 0
+rotation 20
+size 15 20 8
+end
+
+#!name Box
+box
+position 3.5 -225.5 0
+rotation 20
+size 17 10 12
+end
+
+#!name Box
+box
+position 80.5 -34 0
+rotation 45
+size 20 10 14
+end
+
+#!name Box
+box
+position 224 -243.5 0
+rotation 45
+size 20 20 10
+end
+
+#!name Box
+box
+position 359.5 -96 0
+rotation 78
+size 30 20 14
+end
+
+#!name Box
+box
+position 336.5 198.5 0
+rotation 21
+size 30 20 14
+end
+
+#!name Box
+box
+position -173.5 70.5 0
+rotation 20
+size 15 20 8
+end
+
+#!name Box
+box
+position -78.5 202.5 0
+rotation 90
+size 15 20 14
+end
+
+#!name Box
+box
+position 30 306 0
+rotation 175
+size 20 20 10
+end
+
+#!name Box
+box
+position -177 252 0
+rotation 175
+size 20 20 10
+end
+
+#!name Box
+box
+position -367.5 83 0
+rotation 75
+size 20 10 13
+end
+
+#!name Box
+box
+position 150.5 340 0
+rotation 75
+size 20 10 15
+end
+
+#!name tree
+box
+position -367 17.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -367 17.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -366.5 -35 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -366.5 -35 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -373 -87 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -373 -87 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -266 -227.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -266 -227.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -212 -293.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -212 -293.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -284 -372 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -284 -372 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -367.5 -338.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -367.5 -338.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -349.5 -380.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -349.5 -380.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -150 -368 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -150 -368 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -63.5 -296 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -63.5 -296 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -25 -315.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -25 -315.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 9.5 -369.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 9.5 -369.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 11 -257.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 11 -257.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 25.5 -179.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 25.5 -179.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 82 -131 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 82 -131 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 134 -55 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 134 -55 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 274 -258 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 274 -258 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 356.5 -247 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 356.5 -247 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 311.5 -113.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 311.5 -113.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 360.5 -1.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 360.5 -1.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 373 100.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 373 100.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 258.5 227.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 258.5 227.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 363 276.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 363 276.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 222 347 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 222 347 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 98.5 370.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 98.5 370.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position 42.5 267 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position 42.5 267 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -25 380.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -25 380.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -175.5 377.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -175.5 377.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -149 219 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -149 219 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -123 148 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -123 148 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -195 128.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -195 128.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -198.5 2.5 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -198.5 2.5 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -130 -106 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -130 -106 18
+rotation 0
+size 10 10 20
+end
+
+#!name tree
+box
+position -104 -74 0
+rotation 0
+size 2 2 18
+end
+
+#!name treetop
+pyramid
+position -104 -74 18
+rotation 0
+size 10 10 20
+end

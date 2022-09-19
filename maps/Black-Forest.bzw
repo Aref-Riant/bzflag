@@ -1,0 +1,1712 @@
+# World built with bzedit32, available at
+# http://www.artemisgames.com/code/bz/edit/
+
+_drawCelestial
+
+# North
+box
+position 0 400 10
+rotation 0
+size 400 20 2
+end
+
+# South
+box
+position 0 -400 10
+rotation 0
+size 400 20 2
+end
+
+# East
+box
+position 400 0 10
+rotation 0
+size 20 400 2
+end
+
+# West
+box
+position -400 0 10
+rotation 0
+size 20 400 2
+end
+
+# Crosss 1
+box
+position 0 0 10
+rotation 45
+size 15 550 2
+end
+
+# Cross 2
+box
+position 0 0 10
+rotation -45
+size 15 550 2
+end
+
+# Middle Box
+box
+position 0 0 5
+rotation 0
+size 20 20 7.5
+end
+
+
+# MySphere
+sphere
+ name MySphere
+ divisions 4
+ flatshading
+ position 0 0 25
+ size 8 8 8
+ hemisphere
+ drivethrough
+ shootthrough
+end
+
+#!name Box-0
+box
+position 190 47.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-1
+pyramid
+position 190 47.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-2
+box
+position 241.5 57 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-3
+box
+position 163 72.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-4
+box
+position 211 4 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-5
+box
+position 264 11.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-6
+box
+position 254 -48.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-7
+box
+position 150 108 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-8
+box
+position 310 37 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-9
+box
+position 228 -16 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-10
+box
+position 186 -46 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-11
+box
+position 306.5 -33 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-12
+box
+position 115 164 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-13
+box
+position 207 60 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-14
+box
+position 186 140.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-15
+box
+position 224 127.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-16
+box
+position 171.5 169 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-17
+box
+position 159 203 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-18
+box
+position 282.5 154 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-19
+box
+position 337 147.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-20
+box
+position 264.5 197 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-21
+box
+position 148.5 269.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-22
+box
+position 276 231.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-23
+box
+position 196.5 245.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-24
+box
+position 332 201.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-25
+box
+position 371.5 174.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-26
+pyramid
+position 163 72.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-27
+pyramid
+position 150 108 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-28
+pyramid
+position 224 127.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-29
+pyramid
+position 186 140 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-30
+pyramid
+position 171.5 169 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-31
+pyramid
+position 115 164 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-32
+pyramid
+position 159 203 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-33
+pyramid
+position 196.5 245.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-34
+pyramid
+position 148.5 269.6 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-35
+pyramid
+position 264.5 197 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-36
+pyramid
+position 282.5 154 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-37
+pyramid
+position 276 231.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-38
+pyramid
+position 332 201.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-39
+pyramid
+position 241.5 57 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-40
+pyramid
+position 211 4 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-41
+pyramid
+position 186 -46 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-42
+pyramid
+position 228 -16 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-43
+pyramid
+position 264 11.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-44
+pyramid
+position 310 37 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-45
+pyramid
+position 337 147.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-46
+pyramid
+position 254 -48.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-47
+pyramid
+position 306.5 -33 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-48
+box
+position 342.5 340.5 0
+rotation 0
+size 19.5 20.5 9.42
+end
+
+#!name Box-49
+box
+position 343 341 8
+rotation 0
+size 10.5 11 9.42
+end
+
+#!name Pyramid-50
+pyramid
+position 371.5 174.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-51
+box
+position 121.5 232 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-52
+box
+position 109 294 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-53
+box
+position 78 341.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-54
+box
+position 156 39.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-55
+pyramid
+position 207 60 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-56
+pyramid
+position 156 39.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-57
+pyramid
+position 121.5 232 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-58
+pyramid
+position 109 294 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-59
+pyramid
+position 78 341.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-60
+box
+position 194.5 -130.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-61
+box
+position 244 -142.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-62
+box
+position 197 -88.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-63
+pyramid
+position 197 -88.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-64
+pyramid
+position 194.5 -130.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-65
+pyramid
+position 244 -142.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-66
+box
+position 290 -122.5 0
+rotation 0
+size 41.5 7.5 9.42
+end
+
+#!name Box-67
+box
+position 290 -70.5 0
+rotation 0
+size 41.5 7.5 9.42
+end
+
+#!name Box-68
+box
+position 332 -79 0
+rotation 90
+size 15.5 3.5 9.42
+end
+
+#!name Box-69
+box
+position 290 -79 0
+rotation 90
+size 15.5 3.5 9.42
+end
+
+#!name Box-70
+box
+position 250 -79 0
+rotation 90
+size 15.5 3.5 9.42
+end
+
+#!name Box-71
+box
+position 177 -106.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-72
+box
+position 214.5 -154.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-73
+box
+position 186 -170.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-74
+box
+position 17 -189.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-75
+box
+position 43.5 -214 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-76
+box
+position 241 16.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-77
+box
+position 84 -204 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-78
+box
+position 63 -217 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-79
+box
+position 219 -55.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-80
+box
+position 113.5 -183.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-81
+box
+position -2 -254 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-82
+pyramid
+position -2 -254 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-83
+pyramid
+position 43.5 -214 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-84
+pyramid
+position 84 -204 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-85
+pyramid
+position 186 -170.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-86
+pyramid
+position 177 -106.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-87
+pyramid
+position 214.5 -154.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-88
+pyramid
+position 113.5 -183.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-89
+pyramid
+position 63 -217 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-90
+pyramid
+position 219 -55.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-91
+pyramid
+position 241 16.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-92
+pyramid
+position 17 -189.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-93
+pyramid
+position 241.5 -271.5 0
+rotation 0
+size 20 30 50
+end
+
+#!name Pyramid-94
+pyramid
+position 182 -298 0
+rotation 0
+size 20 30 60
+end
+
+#!name Box-95
+box
+position 178 -297.5 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-96
+box
+position 263.5 -287 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Pyramid-97
+pyramid
+position 277.5 -276.5 9.42
+rotation 0
+size 8.2 8.2 10
+end
+
+#!name Box-98
+box
+position 276 -301 9.42
+rotation 0
+size 10 10 9.42
+end
+
+#!name Pyramid-99
+pyramid
+position 125.5 -363.5 0
+rotation 0
+size 20 30 60
+drivethrough
+end
+
+#!name Box-100
+box
+position 140 -364 9.42
+rotation 0
+size 10 20 9.42
+end
+
+#!name Box-101
+box
+position 174 -362.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-102
+box
+position 200 -341 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-103
+box
+position 241 -326.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-104
+pyramid
+position 241 -326.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-105
+pyramid
+position 200 -341 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-106
+pyramid
+position 174 -362.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-107
+pyramid
+position 276 -301 18.84
+rotation 0
+size 4 4 10.25
+end
+
+#!name Box-108
+box
+position 281 57 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-109
+box
+position 262 78 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-110
+box
+position 367.5 93.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-111
+box
+position 367.5 141.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-112
+pyramid
+position 367.5 93.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-113
+pyramid
+position 262 78 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-114
+pyramid
+position 281 57 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-115
+pyramid
+position 367.5 141.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Box-116
+box
+position -146 -248 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-117
+# TOWER 50
+box
+position -181 -47.5 0
+rotation 0
+size 15 15 30
+end
+
+#!name Box-118
+box
+position -278.5 -93.5 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-119
+box
+position -247 -212.5 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-120
+# TOWER 100
+box
+position -165.5 -151.5 0
+rotation 0
+size 20 20 30
+end
+
+#!name Box-121
+box
+position -252.5 -297.5 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-122
+box
+position -195.5 -239 8
+rotation 0
+size 33 3.5 1
+end
+
+#!name trampoline-1
+physics
+ name trampoline
+ linear 0 90 50
+end
+
+#!name Box-123
+box
+position -146 -249.5 9.42
+rotation 0
+size 20 20 9.42
+phydrv trampoline
+end
+
+#!name Box-124
+box
+position -188.5 -298 40
+rotation 0
+size 20 30 1
+end
+
+#!name Box-125
+box
+position -213.5 -326 30
+rotation 0
+size 10 10 1
+end
+
+#!name Box-126
+box
+position -234 -341 20
+rotation 0
+size 10 10 1
+end
+
+#!name Box-127
+box
+position -254.5 -297.5 9.42
+rotation 0
+size 5 30 9.42
+end
+
+#!name Box-128
+box
+position -165.5 -131 50
+rotation 0
+size 30 10 2
+end
+
+#!name Pyramid-129
+pyramid
+position -160.5 -145.5 100
+rotation 0
+size 2 2 30
+end
+
+#!name Pyramid-130
+pyramid
+position -187 -42.5 50
+rotation 0
+size 2 2 30
+end
+
+#!name Box-131
+box
+position -236 -201 9.42
+rotation 0
+size 12 15 9.42
+end
+
+#!name Box-132
+box
+position -319.5 -75.5 9.42
+rotation 0
+size 20 30 9.42
+end
+
+#!name Box-133
+box
+position -261 -154.5 9
+rotation 180
+size 5 30 1
+end
+
+#!name Box-134
+box
+position -146 -249.5 9.42
+rotation 0
+size 20 20 9.42
+end
+
+#!name Box-135
+box
+position -342 -118.5 0
+rotation 0
+size 20 30 9.42
+end
+
+#!name Box-136
+box
+position -329.5 -53.5 0
+rotation 0
+size 5 5 9.42
+end
+
+#!name Box-137
+box
+position -292.5 -106.5 9.42
+rotation 0
+size 2 2 9.42
+end
+
+#!name Box-138
+box
+position -32.5 -214 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-139
+box
+position 24 -292 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-140
+box
+position -61.5 -277.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-141
+box
+position 52 -268.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-142
+box
+position -30 -261 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-143
+box
+position -137 -323 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-144
+pyramid
+position 24 -292 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-145
+pyramid
+position -32.5 -214 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-146
+pyramid
+position -61.5 -277.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-147
+pyramid
+position 52 -268.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-148
+pyramid
+position -30 -261 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-149
+pyramid
+position -137 -323 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Box-150
+box
+position 108.5 -226.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-151
+box
+position 125 -246 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-152
+box
+position 128.5 -277.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-153
+box
+position 107 -265 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-154
+box
+position 88 -243 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-155
+pyramid
+position 128.5 -277.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-156
+pyramid
+position 107 -265.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-157
+pyramid
+position 88 -243 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-158
+pyramid
+position 125 -246 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-159
+pyramid
+position 108.5 -226.5 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Box-160
+box
+position 305 217.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-161
+box
+position 262.5 253.5 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-162
+pyramid
+position 305 217.5 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-163
+pyramid
+position 262.5 253 7.8
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-164
+box
+position -217 131 0
+rotation 0
+size 25 150 2
+end
+
+#!name Box-165
+box
+position -295.5 175 0
+rotation -45
+size 25 100 2
+end
+
+#!name Box-166
+box
+position -209 372.5 0
+rotation 0
+size 30 30 9.42
+end
+
+#!name Box-167
+box
+position -237 320.5 9.42
+rotation 0
+size 2 30 9.42
+end
+
+#!name Box-168
+box
+position -211.5 320 9.42
+rotation 0
+size 2 30 9.42
+end
+
+#!name Box-169
+box
+position -224 320 18.84
+rotation 0
+size 15 30 1
+end
+
+#!name Box-170
+# TOWER 40
+box
+position -207.5 355 9.42
+rotation 0
+size 6 6 25
+end
+
+#!name Pyramid-171
+pyramid
+position -211 351 49.42
+rotation 0
+size 2 2 15
+end
+
+#!name Box-172
+box
+position -237 304.5 0
+rotation 0
+size 1 1 9.42
+end
+
+#!name Box-173
+box
+position -210.5 302.5 0
+rotation 0
+size 1 1 9.42
+end
+
+#!name Box-174
+box
+position -224 320 9.42
+rotation 0
+size 15 30 1
+end
+
+#!name Box-175
+box
+position -266 347 9.42
+rotation 90
+size 2 30 9.42
+end
+
+#!name Box-176
+box
+position -298 357.5 9.42
+rotation 180
+size 2 20 9.42
+end
+
+#!name Box-177
+box
+position -256 375 9.42
+rotation 90
+size 2 40 9.42
+end
+
+#!name Box-178
+box
+position -255 357 18.84
+rotation 90
+size 20 45 1
+end
+
+#!name Box-179
+box
+position -297 343.5 0
+rotation 0
+size 2 2 9.42
+end
+
+#!name Box-180
+box
+position -292 369.5 0
+rotation 0
+size 2 2 9.42
+end
+
+#!name Box-181
+box
+position -214 366 9.42
+rotation 0
+size 2 10 9.42
+end
+
+#!name Box-182
+box
+position 326.5 234 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-183
+box
+position 219 191 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-184
+box
+position 253 153 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Box-185
+box
+position 265.5 339 0
+rotation 0
+size 4 4 9.42
+end
+
+#!name Pyramid-186
+pyramid
+position 265.5 339 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-187
+pyramid
+position 326.5 234 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-188
+pyramid
+position 219 191 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-189
+pyramid
+position 253 153 7.8
+rotation 0
+size 4.7 5 30
+end
+
+#!name Pyramid-190
+pyramid
+position 350 -233.5 0
+rotation 0
+size 20 30 70
+end
+
+#!name Pyramid-191
+pyramid
+position 325 -197.5 0
+rotation 0
+size 15 20 65
+end
+
+#!name Pyramid-192
+pyramid
+position 341.5 -302.5 0
+rotation 0
+size 20 30 70
+end
+
+#!name Pyramid-193
+pyramid
+position -167 150 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-194
+pyramid
+position -169.5 217.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-195
+pyramid
+position -170.5 7 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-196
+pyramid
+position -259 165 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-197
+pyramid
+position -256.5 106.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-198
+pyramid
+position -256.5 43 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-199
+pyramid
+position -301 -233.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-200
+pyramid
+position -369.5 -230.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-201
+pyramid
+position -337.5 -289 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Box-202
+box
+position 275 294.5 0
+rotation 0
+size 20 20 9.42
+end
+
+#!name Box-203
+box
+position 149 -73 0
+rotation 0
+size 2 50 9.42
+end
+
+#!name Box-204
+box
+position 114.5 11.5 0
+rotation 45
+size 2 50 9.42
+end
+
+#!name Box-205
+box
+position 83.5 94 0
+rotation 0
+size 2 50 9.42
+end
+
+#!name Box-206
+box
+position 49 175.5 0
+rotation 45
+size 2 50 9.42
+end
+
+#!name Box-207
+box
+position -264.5 -222.5 9.42
+rotation 0
+size 12 15 9.42
+end
+
+#!name Box-208
+# TOWER 50
+box
+position -299 -99.5 18.84
+rotation 0
+size 10 10 30
+end
+
+#!name Pyramid-209
+pyramid
+position -149.5 -200 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-210
+pyramid
+position 177 -194.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-211
+pyramid
+position -83 286.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-212
+pyramid
+position -167.5 76 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-213
+pyramid
+position -304.5 -228 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-214
+pyramid
+position -100.5 -344.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-215
+pyramid
+position -291 -155.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-216
+pyramid
+position -340.5 76.5 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Pyramid-217
+pyramid
+position -338 190 0
+rotation 0
+size 8.2 8.2 10.25
+end
+
+#!name Teleporter-219
+teleporter n_w
+position -224 258.5 2
+rotation 90
+size 0.25 5 20
+border 1
+end
+
+#!name Teleporter-220
+teleporter n_e
+position 345.5 343.5 17.42
+rotation 0
+size 0.25 5 20
+border 1
+end
+
+#!name Teleporter-221
+teleporter s_e
+position 282.5 -350 0
+rotation 0
+size 0.25 5 20
+border 1
+end
+
+#!name Teleporter-218 SOUTH
+teleporter s_w_m
+position 0 -380 0
+rotation 90
+size 0.25 50 20
+border 1
+end
+
+#!name Teleporter-222 NORTH
+teleporter s_w_r
+position 0 380 0
+rotation 90
+size 0.25 100 20
+border 1
+end
+
+#!name Teleporter-223
+teleporter s_w_l
+position -336.5 -221 0
+rotation 90
+size 0.25 5 20
+border 1
+end
+
+link
+from n_w:f
+to s_e:b
+end
+
+link
+from s_e:b
+to n_w:f
+end
+
+link
+from n_w:b
+to n_e:b
+end
+
+link
+from n_e:b
+to n_w:b
+end
+
+link
+from n_e:f
+to s_w_l:b
+end
+
+link
+from s_w_l:b
+to n_e:f
+end
+
+link
+from s_w_l:f
+to s_w_m:b
+end
+
+link
+from s_w_m:b
+to s_w_l:f
+end
+
+link
+from s_w_m:f
+to s_w_r:b
+end
+
+link
+from s_w_r:b
+to s_w_m:f
+end
+
+link
+from s_w_r:f
+to s_e:f
+end
+
+link
+from s_e:f
+to s_w_r:f
+end

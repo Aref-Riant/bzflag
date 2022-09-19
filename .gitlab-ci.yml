@@ -1,0 +1,40 @@
+stages:
+  - kill
+  - build
+  - run
+
+kill-docker:
+  tags:
+    - bzflag
+  stage: kill
+  only:
+    changes:
+      - Dockerfile
+      - config.conf
+      - .gitlab-ci.yml
+  script:
+    - docker rm -f bzflag && echo kill;
+
+build-image:
+  tags:
+    - bzflag
+  stage: build
+  only:
+    changes:
+      - Dockerfile
+      - config.conf
+      - maps/*
+  script:
+    - docker build -t bzflag .
+
+run-bzfs:
+  tags:
+    - bzflag
+  stage: run
+  only:
+    changes:
+      - Dockerfile
+      - config.conf
+      - .gitlab-ci.yml
+  script:
+    - docker run --rm -p 5154:5154/udp -p 5154:5154 --name bzflag -d bzflag:latest -world maps/Black-Forest.bzw -loadplugin thiefControl -loadplugin playHistoryTracker -loadplugin fastmap -loadplugin ScoreRestorer

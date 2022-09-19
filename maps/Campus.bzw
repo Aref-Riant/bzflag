@@ -1,0 +1,4810 @@
+world
+	size 300
+end
+
+# Schneelandschaft
+#options
+#	-set _mirror "white 0.9"  
+#	-set _rainRoofs 2  
+#	-set _skyColor gray  
+#	-set _rainPuddleColor white  
+#	-set _rainBaseColor white  
+#	-set _rainDensity 1000
+#	-set _rainTopColor white
+#	-set _rainType snow
+#end
+
+
+textureMatrix
+	name myscale
+	fixedscale 0.6257 0.6257
+	fixedshift -0.190 -0.190
+end
+
+textureMatrix
+	name mywidescale
+	fixedscale 0.8 0.6275
+	fixedshift -0.190 -0.190
+end
+
+textureMatrix
+	name mynarrowscale
+	fixedscale 0.3 0.6275
+	fixedshift -0.190 -0.190
+end
+
+textureMatrix
+	name myhalfscale
+	fixedscale 1.2404 1.2404
+	fixedshift -1.2 -1.1
+end
+
+textureMatrix
+	name myhalfshiftedscale
+	fixedscale 1.2404 1.2404
+	fixedshift -1.2 -1.7
+end
+
+textureMatrix
+	name mythirdscale
+	fixedscale 1.855 1.855
+	fixedshift -1.41 -1.41
+end
+
+
+
+
+
+
+
+
+
+
+##################
+#
+# Texturen (online)
+#
+##################
+
+material
+	name geb8textur
+	texture http://www.planetk.de/media/bzflag/geb8fassade.png
+	texmat myscale
+end
+
+material
+	name geb22textur
+	texture http://www.planetk.de/media/bzflag/geb22fassade.png
+	texmat myscale
+end
+
+material
+	name mensatextur
+	texture http://www.planetk.de/media/bzflag/mensafassade.png
+	texmat mythirdscale
+end
+
+material
+	name schwarz 
+	color 0.0 0.0 0.0 1.0 
+	texmat myscale
+end
+
+material
+	name dreckweiss
+	color 0.6205 0.62 0.62 1.0
+	texmat myscale
+end
+
+material
+	name beton 
+	texture http://www.planetk.de/media/bzflag/beton.png
+	texmat myscale
+end
+
+material
+	name betontreppe 
+	color 0.2 0.2 0.2 1.0
+	addtexture http://www.planetk.de/media/bzflag/beton.png
+	texmat myscale
+end
+
+material
+	name dreckbeton 
+	color 0.38 0.35 0.4 1.0
+	addtexture http://www.planetk.de/media/bzflag/beton.png
+	texmat myscale
+end
+
+material
+	name glas 
+	color 0.0 0.0 0.0 0.6 
+	texmat myscale
+end
+
+material
+	name mpitextur
+	addtexture http://www.planetk.de/media/bzflag/mpifassade.png
+	texmat myscale
+end
+
+material
+	name geb36textur
+	addtexture http://www.planetk.de/media/bzflag/geb36fassade.png
+	texmat myscale
+end
+
+material
+	name geb45textur
+	addtexture http://www.planetk.de/media/bzflag/geb45fassade.png
+	texmat myscale
+end
+
+material
+	name schwarzfenstertextur
+	addtexture http://www.planetk.de/media/bzflag/schwarzfensterfassade.png
+	texmat myscale
+end
+
+material
+	name geb45semtextur
+	addtexture http://www.planetk.de/media/bzflag/infoseminarraumfassade.png
+	texmat myscale
+end
+
+material
+	name geb45foyertextur
+	addtexture http://www.planetk.de/media/bzflag/infofoyerfassade.png
+	texmat myscale
+end
+
+material
+	name geb45bibtextur
+	addtexture http://www.planetk.de/media/bzflag/infobibfassade.png
+	texmat myscale
+end
+
+material
+	name hs45textur
+	addtexture http://www.planetk.de/media/bzflag/hs45fassade.png
+	texmat myhalfscale
+end
+
+material
+	name hsmpitextur
+	addtexture http://www.planetk.de/media/bzflag/hs45fassade.png
+	texmat myhalfshiftedscale
+end
+
+material
+	name infocafetextur
+	addtexture http://www.planetk.de/media/bzflag/infocafefassade.png
+	texmat myscale
+end
+
+material
+	name mpisockeltextur
+	addtexture http://www.planetk.de/media/bzflag/mpisockelfassade.png
+	texmat mywidescale
+end
+
+material
+	name mathetextur
+	addtexture http://www.planetk.de/media/bzflag/mathefassade.png
+	texmat myscale
+end
+
+material
+	name mathehstextur
+	addtexture http://www.planetk.de/media/bzflag/mathehsfassade.png
+	texmat myscale
+end
+
+material
+	name exphysiktextur
+	addtexture http://www.planetk.de/media/bzflag/exphysikfassade.png
+	texmat myscale
+end
+
+material
+	name altbaudachtextur
+	addtexture http://www.planetk.de/media/bzflag/altbaudach.png
+	texmat myscale
+end
+
+material
+	name altbautextur
+	addtexture http://www.planetk.de/media/bzflag/altbaufassade.png
+	texmat myscale
+end
+
+material
+	name turmuhrdachtextur
+	addtexture http://www.planetk.de/media/bzflag/turmuhrdach.png
+	texmat myscale
+end
+
+material
+	name skulpturtextur
+	color 0.1 0.0 0.01 1.0
+end
+
+material
+	name automedonsockel
+	color 0.36 0.20 0.0 1.0
+end
+
+material
+	name automedonmetall
+	color 0.4 0.4 0.4 1.0
+	shininess 0.8
+end
+
+material
+	name blau
+	color 0.0 0.0 0.4 1.0
+end
+
+material
+	name tortextur
+	color 0.35 0.22 0.10 1.0	
+	addtexture http://www.planetk.de/media/bzflag/beton.png
+	texmat myscale
+end
+
+material
+	name trafohaustextur
+	addtexture http://www.planetk.de/media/bzflag/trafohausfassade.png
+	texmat myscale
+end
+
+material
+	name containertextur
+	addtexture http://www.planetk.de/media/bzflag/containerfassade.png
+	texmat myscale
+end
+
+material
+	name geb9textur
+	addtexture http://www.planetk.de/media/bzflag/geb9fassade.png
+	texmat myscale
+end
+
+material
+	name aufzugtextur
+	addtexture http://www.planetk.de/media/bzflag/aufzugfassade.png
+	texmat myscale
+end
+
+material
+	name glasdachtextur
+	addtexture http://www.planetk.de/media/bzflag/glasdachfassade.png
+	texmat myscale
+end
+
+material
+	name wellblechtextur
+	addtexture http://www.planetk.de/media/bzflag/wellblech.png
+	texmat myscale
+end
+
+material
+	name aulatextur
+	addtexture http://www.planetk.de/media/bzflag/aulafassade.png
+	texmat myscale
+end
+
+material
+	name audimaxtextur
+	addtexture http://www.planetk.de/media/bzflag/audimaxfassade.png
+	texmat myscale
+end
+
+#material
+#	name weihnachtsbaum
+#	addtexture http://www.planetk.de/media/bzflag/weihnachtsbaum.png
+#	texmat myscale
+#end
+
+#material
+#	name licht
+#	diffuse 1.0 1.0 0.0 1.0
+#	emission 1.0 1.0 0.0 1.0
+#	shininess 1.0
+#end
+
+material
+	name gebB31textur
+	addtexture http://www.planetk.de/media/bzflag/gebB31fassade.png
+	texmat myhalfscale
+end
+
+material
+	name gebB32textur
+	addtexture http://www.planetk.de/media/bzflag/gebB32fassade.png
+	texmat myhalfscale
+end
+
+material
+	name gebB33textur
+	addtexture http://www.planetk.de/media/bzflag/gebB33fassade.png
+	texmat myscale
+end
+
+material
+	name dach
+	texture roof
+end
+
+material
+	name gras
+	texture std_ground
+end
+
+material
+	name inmtuer
+	addtexture http://www.planetk.de/media/bzflag/inmtuer.png
+	texmat mynarrowscale
+end
+
+material
+	name gelbetuer
+	addtexture http://www.planetk.de/media/bzflag/gelbetuer.png
+	texmat mynarrowscale
+end
+
+material
+	name inmblau
+	addtexture http://www.planetk.de/media/bzflag/inmblaufassade.png
+	texmat mynarrowscale
+end
+
+material
+	name inmblaufenster
+	addtexture http://www.planetk.de/media/bzflag/inmblaufenster.png
+	texmat mynarrowscale
+end
+
+material
+	name inmfenster
+	addtexture http://www.planetk.de/media/bzflag/inmfensterfassade.png
+	texmat myscale
+end
+
+material
+	name inmkreisfenster
+	addtexture http://www.planetk.de/media/bzflag/inmkreisfensterfassade.png
+	texmat mywidescale
+end
+
+material
+	name inmwand
+	addtexture http://www.planetk.de/media/bzflag/inmwandfassade.png
+	texmat myscale
+end
+
+material
+	name iwitextur
+	addtexture http://www.planetk.de/media/bzflag/iwifassade.png
+	texmat mywidescale
+end
+
+##################
+#
+# Gebaeude
+#
+##################
+
+##################
+# Mensa
+##################
+
+meshbox
+	position -38 222 0
+	size 32 32 15
+	outside matref mensatextur
+end
+
+meshbox
+	position -50 232 15
+	size 6 6 4
+	top matref glas
+	outside matref glas
+end
+
+meshbox
+	position -26 232 15
+	size 6 6 4
+	top matref glas
+	outside matref glas
+end
+
+meshbox
+	position -50 212 15
+	size 6 6 4
+	top matref glas
+	outside matref glas
+end
+
+meshbox
+	position -26 212 15
+	size 6 6 4
+	top matref glas
+	outside matref glas
+end
+
+
+##################
+# C4 ("Geb 22")
+##################
+
+meshbox
+	position -30 -75 10
+	size 19 10 60
+	outside matref geb22textur
+end
+
+meshbox
+	position -30 -108 0
+	size 19 43 10
+	outside matref geb22textur
+end
+
+meshbox
+	position -30 -14 0
+	size 19 23 10
+	outside matref geb22textur
+end
+
+meshbox
+	position -67 -14 0
+	size 18 10 30
+	outside matref geb22textur
+end
+
+meshbox
+	position -87 -8 0
+	size 2 2 35
+	outside matref aufzugtextur
+end
+
+meshbox
+	position -87 -8 35
+	size 2 2 2
+	outside matref trafohaustextur
+end
+
+meshbox
+	position -65 -14 30
+	size 14 8 5
+	outside matref trafohaustextur
+end
+
+meshbox
+	position 7 -14 0
+	size 18 10 30
+	outside matref geb22textur
+end
+
+meshbox
+	position -6 -47.5 0
+	size 5 23.5 10
+	outside matref geb22textur
+end
+
+##################
+# A41-42 ("Geb 8")
+##################
+
+meshbox
+	position -219 -90 0
+	size 8 3 10
+	outside matref containertextur
+end
+
+
+meshbox
+	position -266 -93 10
+	size 11 12 10
+	outside matref geb8textur
+end
+
+meshbox
+	position -227 -114 10
+	size 12 9 10
+	outside matref geb8textur
+end
+
+meshbox
+	position -247 -102 5
+	size 8 21 20 #ehem 0:25
+	outside matref geb8textur
+end
+
+meshbox
+	position -247 -114 0
+	size 8 9 5
+	outside matref geb8textur
+end
+
+meshbox
+	position -258 -89.5 0
+	size 19 15.5 5
+	outside matref geb8textur
+end
+
+meshbox
+	position -255 -89.5 5
+	size 22 15.5 5
+	outside matref geb8textur
+end
+
+meshbox
+	position -221 -117 0
+	size 12 12 10
+	outside matref geb8textur
+end
+
+meshbox
+	position -236 -114 5
+	size 3 9 5
+	outside matref geb8textur
+end
+
+##################
+# RZ
+##################
+
+meshbox
+	position 99 213.5 0
+	size 9 15.5 10
+	outside matref geb8textur
+end
+
+meshbox
+	position 86.5 213.5 0
+	size 3.5 11 10
+	outside matref geb8textur
+end
+
+meshbox
+	position 112 200 0
+	size 4 2 10
+	outside matref geb8textur
+end
+
+meshbox
+	position 109 203 0
+	size 1 1 8
+	outside matref geb8textur
+end
+
+meshpyr
+	position 108 202 8
+	size 2 2 1.5
+	matref beton
+end
+
+meshbox
+	position 111 203.5 0
+	size 5 1.5 5
+	outside matref geb8textur
+end
+
+##################
+# Info 45
+##################
+
+meshbox
+	position 99 253 0
+	size 27 10 15
+	outside matref geb45bibtextur
+end
+
+meshbox
+	position 71.5 253 0
+	size 0.5 7 15
+	outside matref schwarzfenstertextur
+end
+
+meshbox
+	position 126.5 253 0
+	size 0.5 7 15
+	outside matref schwarzfenstertextur
+end
+
+meshbox
+	position 99 253 15
+	size 28 11 15
+	outside matref geb45textur
+end
+
+meshbox
+	position 101 271 0
+	size 23 8 10
+	outside matref hs45textur
+end
+
+meshbox
+	position 112 271 10
+	size 3 8 2
+	matref glas
+end
+
+meshbox
+	position 90 271 10
+	size 3 8 2
+	matref glas
+end
+
+arc
+	divisions 32
+	angle 360
+	position 129 215 0
+	size 7.5 7.5 5
+	rotation 180
+	outside matref infocafetextur
+end
+
+meshbox
+	position 96 241 0
+	size 20 3 10
+	outside matref geb45semtextur
+end
+
+meshbox
+	position 121 219 0
+	size 5 24 10
+	outside matref geb45foyertextur
+end
+
+meshbox
+	position 126 235 0
+	size 2 2 4
+	outside matref gelbetuer
+	rotation -30
+end
+
+##################
+# Info MPI
+##################
+
+meshbox
+	position 165 269 10 
+	size 20 25 25
+	outside matref mpitextur
+end
+
+meshbox
+	position 165 269 0 
+	size 19.5 24.5 10
+	outside matref geb45bibtextur
+end
+
+meshbox
+	position 163 282 0
+	size 21 14 5
+	outside matref hsmpitextur
+end
+
+meshbox
+	position 186 293.5 0
+	size 2 2.5 5
+	outside matref mpisockeltextur
+end
+
+meshbox
+	position 156 241.15 4.7 
+	size 14 0.15 0.3
+	matref beton
+end
+
+meshbox
+	position 156.5 242.15 4.7 
+	size 13.5 0.15 0.3
+	matref beton
+end
+
+meshbox
+	position 157 243.15 4.7 
+	size 13 0.15 0.3
+	matref beton
+end
+
+meshbox
+	position 142.15 254.5 4.7
+	size 0.15 13.5 0.3
+	matref beton
+end
+
+meshbox
+	position 143.15 255 4.7
+	size 0.15 13 0.3
+	matref beton
+end
+
+meshbox
+	position 144.15 255.5 4.7
+	size 0.15 12.5 0.3
+	matref beton
+end
+
+meshbox
+	position 179 253.5 0
+	size 9 12.5 5
+	outside matref mpisockeltextur
+end
+
+meshbox
+	position 179 278.5 0
+	size 9 12.5 5
+	outside matref mpisockeltextur
+end
+
+arc
+	divisions 32
+	angle 360
+	position 155 244 0
+	size 2 2 4
+	outside matref gelbetuer
+end
+
+meshbox
+	position 141 248 9.7
+	size 14 1.5 0.3
+	outside matref beton
+end
+
+##################
+# Info 36
+##################
+
+meshbox
+	position 126 194 20
+	size 10 8 5
+	outside matref geb36textur
+end
+
+meshbox
+	position 123 174 0
+	size 3 3 5
+	outside matref geb36textur
+end
+
+meshbox
+	position 123 168 4.3
+	size 3 3 0.7
+	outside matref geb36textur
+end
+
+meshbox
+	position 108 187.5 0
+	size 18 10.5 25
+	outside matref geb36textur
+end
+
+meshbox
+	position 132 194 0
+	size 16 8 20
+	outside matref geb36textur
+end
+
+meshbox
+	position 121 187.5 25
+	size 5 10.5 5
+	outside matref geb36textur
+end
+
+meshbox
+	position 111 191 25
+	size 5 5 5
+	outside matref geb36textur
+end
+
+##################
+# Mathekomplex
+##################
+
+meshbox
+	position 103 96 0
+	size 13 19 20
+	outside matref mathetextur
+end
+
+meshbox
+	position 144 58 0
+	size 22 19 5.5
+	outside matref mathehstextur
+end
+
+meshbox
+	position 137 58 5.5
+	size 11 10 2
+	outside matref dreckbeton 
+end
+
+meshbox
+	position 90 28 0
+	size 16 12 25
+	outside matref exphysiktextur
+end
+
+meshbox
+	position 106.5 22 0
+	size 8.5 12 5
+	outside matref exphysiktextur
+end
+
+meshbox
+	position 110 22 5
+	size 12 12 20
+	outside matref exphysiktextur
+end
+
+meshbox
+	position 105 39.5 0
+	size 1.5 3 26
+	outside matref beton
+end
+
+meshbox
+	position 99 9.5 0
+	size 1.5 3 26
+	outside matref beton
+end
+
+meshbox
+	position 118.75 73.5 4.7
+	size 2.5 41.5 0.3
+	outside matref dreckweiss
+end
+
+meshbox
+	position 118.75 -9 4.7
+	size 2.5 21 0.3
+	outside matref dreckweiss
+end
+
+meshbox
+	position 94.5 -21 0
+	size 20.5 16 10
+	outside matref beton
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+	shift 0 5.33 0
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+	shift 0 10.66 0
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+	shift 0 16 0
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+	shift 0 21.33 0
+end
+
+mesh
+	vertex 74  -37    10  #0
+	vertex 74  -31.66 15  #1
+	vertex 74  -31.66 10  #2
+	vertex 115 -37    10  #3
+	vertex 115 -31.66 15  #4
+	vertex 115 -31.66 10  #5
+
+	face
+		vertices 0 3 4 1
+		matref wellblechtextur
+	endface
+	face
+		vertices 1 4 5 2
+		matref glasdachtextur
+	endface
+	face
+		vertices 2 0 1
+		matref schwarz
+	endface	
+	face 
+		vertices 0 2 5 3
+		matref schwarz
+	endface
+	face 
+		vertices 3 5 4
+		matref schwarz
+	endface
+
+	inside 94 -32 11
+	shift 0 26.66 0
+end
+
+##################
+# Kath. HSG
+##################
+
+box
+	position -268 65 0
+	size 3 3 5
+end
+
+#box
+#	position -287 53 0
+#	size 10 15 5
+#end
+
+box
+	position -292 61 0
+	size 5 7 5
+end
+
+box
+	position -283 62 0
+	size 4 6 5
+end
+
+box
+	position -275 57 0
+	size 4 11 5
+end
+
+box
+	position -293 50 0
+	size 4 4 5
+end
+
+box
+	position -288 42 0
+	size 9 4 5
+end
+
+arc
+	divisions 32
+	angle 360
+	position -279 46 0
+	size 6 6 9
+	smoothbounce
+	outside matref beton
+end
+
+#############
+# Pharmazie #
+#############
+
+box
+	position -55 60 0
+	size 28 18 10
+end
+
+box
+	position -95 60 0
+	size 7 18 5
+end
+
+box
+	position -85.5 67 4.7
+	size 2.5 2.5 0.3
+end
+
+box
+	position -85.5 53 4.7
+	size 2.5 2.5 0.3
+end
+
+############
+# Altbauten
+############
+
+meshbox
+	position -335 -18 0
+	size 9 22 10
+	outside matref altbautextur
+end
+
+mesh
+	vertex -345 -41 10  #0
+	vertex -345 5 10    #1
+	vertex -325 -41 10  #2
+	vertex -325 5 10    #3
+	vertex -335 -31 15  #4
+	vertex -335 -5 15   #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -335 -18 12
+end
+
+meshbox
+	position -335 70 0
+	size 9 35.5 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -345 33.5 15  #0
+	vertex -345 106.5 15 #1
+	vertex -325 33.5 15  #2
+	vertex -325 106.5 15 #3
+	vertex -335 42.5 20  #4
+	vertex -335 97.5 20  #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -335 70 17
+end
+
+meshbox
+	position -335 -103 0
+	size 9 35.5 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -345 -139.5 15  #0
+	vertex -345 -66.5 15   #1
+	vertex -325 -139.5 15  #2
+	vertex -325 -66.5 15   #3
+	vertex -335 -130.5 20  #4
+	vertex -335 -75.5 20   #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -335 -103 17
+end
+
+meshbox
+	position -188 -18 0
+	size 9 22 10
+	outside matref altbautextur
+end
+
+mesh
+	vertex -198 -41 10  #0
+	vertex -198 5 10    #1
+	vertex -178 -41 10  #2
+	vertex -178 5 10    #3
+	vertex -188 -31 15  #4
+	vertex -188 -5 15   #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -188 -18 12
+end
+
+meshbox
+	position -188 70 0
+	size 9 35.5 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -198 33.5 15  #0
+	vertex -198 106.5 15 #1
+	vertex -178 33.5 15  #2
+	vertex -178 106.5 15 #3
+	vertex -188 42.5 20  #4
+	vertex -188 97.5 20  #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -188 70 17
+end
+
+meshbox
+	position -188 -103 0
+	size 9 35.5 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -198 -139.5 15  #0
+	vertex -198 -66.5 15   #1
+	vertex -178 -139.5 15  #2
+	vertex -178 -66.5 15   #3
+	vertex -188 -130.5 20  #4
+	vertex -188 -75.5 20   #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -188 -103 17
+end
+
+meshbox
+	position -335 -18 10
+	size 1.5 1.5 6.5
+	outside matref altbautextur
+end
+
+meshpyr
+	position -335 -18 16.5
+	size 1.8 1.8 4
+	matref turmuhrdachtextur
+end
+
+meshbox
+	position -265 95 0
+	size 23 11 5
+	outside matref aulatextur
+end
+
+mesh
+	vertex -241 83 5  #0
+	vertex -289 83 5  #1
+	vertex -241 107 5 #2
+	vertex -289 107 5 #3
+	vertex -253 95 9  #4
+	vertex -277 95 9  #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -265 95 7
+end
+
+######
+# Tor
+######
+
+meshbox
+	position -399 -45 0
+	size 8 20 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -408 -66 15  #0
+	vertex -408 -24 15  #1
+	vertex -390 -66 15  #2
+	vertex -390 -24 15  #3
+	vertex -399 -58 20  #4
+	vertex -399 -32 20  #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -399 -45 17
+end
+
+meshbox
+	position -399 15 0
+	size 8 20 15
+	outside matref altbautextur
+end
+
+mesh
+	vertex -408 -6 15  #0
+	vertex -408 36 15  #1
+	vertex -390 -6 15  #2
+	vertex -390 36 15  #3
+	vertex -399  3 20  #4
+	vertex -399 22 20  #5
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 0 2 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 1 5
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 2 3 5 4
+		noclusters
+		matref altbaudachtextur
+	endface
+	face
+		vertices 3 2 0 1
+		noclusters
+		matref schwarz
+	endface
+	inside -399 15 17
+end
+
+mesh
+	vertex -403 -25   0.0    #0
+	vertex -403 -20   0.0    #1
+	vertex -403 -20   3.1    #2
+	vertex -403 -19.7 4.2    #3
+	vertex -403 -19.2 5.0    #4
+	vertex -403 -18.7 5.5    #5
+	vertex -403 -18.1 6.0    #6
+	vertex -403 -17.2 6.5    #7
+	vertex -403 -16.3 6.8    #8
+	vertex -403 -15.4 6.9    #9
+	vertex -403 -14.6 6.9    #10
+	vertex -403 -13.7 6.8    #11
+	vertex -403 -12.8 6.5    #12
+	vertex -403 -11.9 6.0    #13
+	vertex -403 -11.3 5.5    #14
+	vertex -403 -10.8 5.0    #15
+	vertex -403 -10.3 4.2    #16
+	vertex -403 -10.0 3.1    #17
+	vertex -403 -10.0 0.0    #18
+	vertex -403 -5.0  0.0    #19
+	vertex -403 -5.0 11.0    #20
+	vertex -403 -25  11.0    #21
+	vertex -395 -25   0.0    #22
+	vertex -395 -20   0.0    #23
+	vertex -395 -20   3.1    #24
+	vertex -395 -19.7 4.2    #25
+	vertex -395 -19.2 5.0    #26
+	vertex -395 -18.7 5.5    #27
+	vertex -395 -18.1 6.0    #28
+	vertex -395 -17.2 6.5    #29
+	vertex -395 -16.3 6.8    #30
+	vertex -395 -15.4 6.9    #31
+	vertex -395 -14.6 6.9    #32
+	vertex -395 -13.7 6.8    #33
+	vertex -395 -12.8 6.5    #34
+	vertex -395 -11.9 6.0    #35
+	vertex -395 -11.3 5.5    #36
+	vertex -395 -10.8 5.0    #37
+	vertex -395 -10.3 4.2    #38
+	vertex -395 -10.0 3.1    #39
+	vertex -395 -10.0 0.0    #40
+	vertex -395 -5.0  0.0    #41
+	vertex -395 -5.0 11.0    #42
+	vertex -395 -25  11.0    #43
+	
+	# Von aussen
+
+	face
+		vertices 1 0 21 2
+		matref tortextur
+	endface	
+	face
+		vertices 3 2 21 
+		matref tortextur
+	endface	
+	face
+		vertices 4 3 21
+		matref tortextur
+	endface	
+	face
+		vertices 5 4 21
+		matref tortextur
+	endface	
+	face
+		vertices 6 5 21
+		matref tortextur
+	endface	
+	face
+		vertices 7 6 21
+		matref tortextur
+	endface	
+	face
+		vertices 8 7 21
+		matref tortextur
+	endface	
+	face
+		vertices 9 8 21
+		matref tortextur
+	endface	
+	face
+		vertices 10 9 21
+		matref tortextur
+	endface	
+	face
+		vertices 20 11 10 21
+		matref tortextur
+	endface	
+	face
+		vertices 20 12 11
+		matref tortextur
+	endface	
+	face
+		vertices 20 13 12
+		matref tortextur
+	endface	
+	face
+		vertices 20 14 13
+		matref tortextur
+	endface	
+	face
+		vertices 20 15 14
+		matref tortextur
+	endface	
+	face
+		vertices 20 16 15
+		matref tortextur
+	endface	
+	face
+		vertices 20 17 16
+		matref tortextur
+	endface	
+	face
+		vertices 20 19 18 17
+		matref tortextur
+	endface	
+	
+	# Von innen
+
+	face
+		vertices 43 22 23 24
+		matref tortextur
+	endface	
+	face
+		vertices 43 24 25
+		matref tortextur
+	endface	
+	face
+		vertices 43 25 26
+		matref tortextur
+	endface	
+	face
+		vertices 43 26 27
+		matref tortextur
+	endface	
+	face
+		vertices 43 27 28
+		matref tortextur
+	endface	
+	face
+		vertices 43 28 29
+		matref tortextur
+	endface	
+	face
+		vertices 43 29 30
+		matref tortextur
+	endface	
+	face
+		vertices 43 30 31
+		matref tortextur
+	endface	
+	face
+		vertices 43 31 32 42
+		matref tortextur
+	endface	
+	face
+		vertices 42 32 33
+		matref tortextur
+	endface	
+	face
+		vertices 42 33 34
+		matref tortextur
+	endface	
+	face
+		vertices 42 34 35
+		matref tortextur
+	endface	
+	face
+		vertices 42 35 36
+		matref tortextur
+	endface	
+	face
+		vertices 42 36 37
+		matref tortextur
+	endface	
+	face
+		vertices 42 37 38
+		matref tortextur
+	endface	
+	face
+		vertices 42 38 39
+		matref tortextur
+	endface	
+	face
+		vertices 42 39 40 41
+		matref tortextur
+	endface	
+
+	# Torbogen
+	
+	face
+		vertices 0 1 23 22
+		matref tortextur
+	endface	
+	face
+		vertices 1 2 24 23
+		matref tortextur
+	endface	
+	face
+		vertices 2 3 25 24
+		matref tortextur
+	endface	
+	face
+		vertices 3 4 26 25
+		matref tortextur
+	endface	
+	face
+		vertices 4 5 27 26
+		matref tortextur
+	endface	
+	face
+		vertices 5 6 28 27
+		matref tortextur
+	endface	
+	face
+		vertices 6 7 29 28
+		matref tortextur
+	endface	
+	face
+		vertices 7 8 30 29
+		matref tortextur
+	endface	
+	face
+		vertices 8 9 31 30
+		matref tortextur
+	endface	
+	face
+		vertices 9 10 32 31
+		matref tortextur
+	endface	
+	face
+		vertices 10 11 33 32
+		matref tortextur
+	endface	
+	face
+		vertices 11 12 34 33
+		matref tortextur
+	endface	
+	face
+		vertices 12 13 35 34
+		matref tortextur
+	endface	
+	face
+		vertices 13 14 36 35
+		matref tortextur
+	endface	
+	face
+		vertices 14 15 37 36
+		matref tortextur
+	endface	
+	face
+		vertices 15 16 38 37
+		matref tortextur
+	endface	
+	face
+		vertices 16 17 39 38
+		matref tortextur
+	endface	
+	face
+		vertices 17 18 40 39
+		matref tortextur
+	endface	
+	face
+		vertices 18 19 41 40
+		matref tortextur
+	endface	
+	face
+		vertices 19 20 42 41
+		matref tortextur
+	endface
+	face
+		vertices 20 21 43 42
+		matref tortextur
+	endface
+	face
+		vertices 21 0 22 43
+		matref tortextur
+	endface	
+	inside -399 -15 10
+end
+
+###########
+# Skulptur
+###########
+
+mesh
+	vertex -324 -56 0   #0
+	vertex -324 -52 0   #1
+	vertex -323.75 -56 0 #2
+	vertex -323.75 -52 0 #3
+	vertex -320.25 -54 17  #4
+	vertex -320.25 -50 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -50 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -323.8 -54 0.1
+end
+
+mesh
+	vertex -316 -52 0   #0
+	vertex -316 -56 0   #1
+	vertex -316.25 -52 0 #2
+	vertex -316.25 -56 0 #3
+	vertex -319.75 -54 17  #4
+	vertex -319.75 -58 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -58 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -316.2 -54 0.1
+end
+
+mesh
+	vertex -316 -52 0   #0
+	vertex -316 -56 0   #1
+	vertex -316.25 -52 0 #2
+	vertex -316.25 -56 0 #3
+	vertex -319.75 -54 17  #4
+	vertex -319.75 -58 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -58 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -316.2 -54 0.1
+	rotation 60
+	shift -206.77 250.13 0
+end
+
+mesh
+	vertex -316 -52 0   #0
+	vertex -316 -56 0   #1
+	vertex -316.25 -52 0 #2
+	vertex -316.25 -56 0 #3
+	vertex -319.75 -54 17  #4
+	vertex -319.75 -58 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -58 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -316.2 -54 0.1
+	rotation 120
+	shift -526.77 196.13 0
+end
+
+mesh
+	vertex -324 -56 0   #0
+	vertex -324 -52 0   #1
+	vertex -323.75 -56 0 #2
+	vertex -323.75 -52 0 #3
+	vertex -320.25 -54 17  #4
+	vertex -320.25 -50 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -50 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -323.8 -54 0.1
+	rotation 60
+	shift -206.77 250.13 0
+end
+
+mesh
+	vertex -324 -56 0   #0
+	vertex -324 -52 0   #1
+	vertex -323.75 -56 0 #2
+	vertex -323.75 -52 0 #3
+	vertex -320.25 -54 17  #4
+	vertex -320.25 -50 17  #5
+	vertex -320 -54 17    #6
+	vertex -320 -50 17    #7
+	face
+		vertices 1 0 4 5
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 3 7 6
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 0 2 6 4
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 3 1 5 7
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 2 0 1 3
+		noclusters
+		matref skulpturtextur
+	endface
+	face
+		vertices 5 4 6 7
+		noclusters
+		matref skulpturtextur
+	endface
+	inside -323.8 -54 0.1
+	rotation 120
+	shift -526.77 196.13 0
+end
+
+########
+# Geb 9
+########
+
+meshbox
+	position -300 -153 5
+	size 54 9 10
+	outside matref geb9textur
+end
+
+meshbox
+	position -300 -153 15
+	size 48 8.5 5
+	outside matref geb9textur
+end
+
+meshbox
+	position -339 -153 0
+	size 15 9 5
+	outside matref geb9textur
+end
+
+meshbox
+	position -281 -153 0
+	size 35 9 5
+	outside matref geb9textur
+end
+
+meshbox
+	position -254 -136 0
+	size 8 8 10
+	outside matref geb9textur
+end
+
+meshbox
+	position -300 -153 15
+	size 51 6 5
+	outside matref geb9textur
+end
+
+meshbox
+	position -300 -153 20
+	size 48 1.5 2
+	outside matref trafohaustextur
+end
+
+meshbox
+	position -254 -135 10
+	size 5 5 4
+	outside matref trafohaustextur
+end
+
+meshbox
+	position -335 -141.25 0
+	size 1.5 2.75 15
+	outside matref geb9textur
+end
+
+mesh
+	vertex -353 -162 20   #0
+	vertex -353 -155 21   #1
+	vertex -353 -153 21.1 #2
+	vertex -353 -151 21   #3
+	vertex -353 -144 20   #4
+	vertex -247 -162 20   #5
+	vertex -247 -155 21   #6
+	vertex -247 -153 21.1 #7
+	vertex -247 -151 21   #8
+	vertex -247 -144 20   #9
+
+	face
+		vertices 0 5 6 1
+		matref trafohaustextur
+	endface
+	face
+		vertices 1 6 7 2
+		matref trafohaustextur
+	endface
+	face
+		vertices 2 7 8 3
+		matref trafohaustextur
+	endface
+	face
+		vertices 3 8 9 4
+		matref trafohaustextur
+	endface
+	face
+		vertices 0 1 2 3
+		matref beton
+	endface
+	face
+		vertices 3 4 0
+		matref beton
+	endface
+	face
+		vertices 5 9 8 7
+		matref beton
+	endface
+	face
+		vertices 5 7 6
+		matref beton
+	endface
+	face
+		vertices 0 4 9 5
+		matref beton
+	endface
+	inside -300 -153 20.5
+end
+
+##########
+# Audimax
+##########
+
+meshbox
+	position -362 -294 0
+	size 6 37 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -350 -294 0
+	size 6 25 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -290 -294 0
+	size 6 25 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -278 -294 0
+	size 6 37 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -320 -294 0
+	size 15 25 10
+	outside matref beton
+end
+
+meshbox
+	position -320 -263 0
+	size 24 6 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -320 -251 0
+	size 36 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -320 -325 0
+	size 24 6 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -320 -337 0
+	size 36 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -362 -337 0
+	size 6 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -362 -251 0
+	size 6 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -278 -337 0
+	size 6 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -278 -251 0
+	size 6 6 10
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -350 -325 0
+	size 6 6 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -350 -263 0
+	size 6 6 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -290 -325 0
+	size 6 6 15
+	outside matref audimaxtextur
+end
+
+meshbox
+	position -290 -263 0
+	size 6 6 15
+	outside matref audimaxtextur
+end
+
+##################
+# Komplex B3
+##################
+
+meshbox
+	position -220 -205 0
+	size 8 43 20
+	outside matref gebB31textur
+end
+
+meshbox
+	position -235.5 -237 0
+	size 7.5 4 20
+	outside matref gebB32textur
+end
+
+meshbox
+	position -249 -252 0
+	size 9 26 15
+	outside matref gebB33textur
+end
+
+meshbox
+	position -246 -237 19.7
+	size 3 4 0.3
+	outside matref gebB32textur
+end
+
+#######
+# DFKI
+#######
+
+# Bruecke
+
+meshbox
+	position -214.5 134.5 4.7
+	size 1.5 18.5 0.3
+	outside matref blau
+	bottom matref blau
+end
+
+# Rampe zur Bruecke
+
+mesh
+	vertex -216 116 5      #0
+	vertex -222 117 0      #1
+	vertex -216 84 0       #2
+	vertex -213 116 5      #3
+	vertex -209 117 0      #4
+	vertex -213 84 0       #5
+
+	face
+		vertices 0 1 2
+		matref gras
+	endface
+
+	face
+		vertices 3 5 4
+		matref gras
+	endface
+
+	face
+		vertices 3 0 2 5
+		matref beton
+	endface
+
+	face
+		vertices 0 3 4 1
+		matref gras
+	endface
+
+	face
+		vertices 1 4 5 2
+		matref gras
+	endface
+
+	inside -214.5 100 0.1
+end
+
+# Grashuegel vor Treppe
+
+mesh
+	vertex -204 150 0 #0
+	vertex -199 150 0 #1
+	vertex -199 148 0 #2
+	vertex -204 148 0 #3
+	vertex -204 150 2 #4
+	vertex -199 150 2 #5
+
+	face
+		vertices 3 2 5 4
+		matref gras
+	endface
+
+	face
+		vertices 0 3 4 
+		matref gras
+	endface
+
+	face
+		vertices 2 1 5
+		matref gras
+	endface
+
+	face
+		vertices 1 0 4 5
+		matref gras
+	endface
+
+	face
+		vertices 2 3 0 1
+		matref gras
+	endface
+
+	inside -202 149.8 0.1
+end
+
+mesh
+	vertex -204 150 0 #0
+	vertex -199 150 0 #1
+	vertex -199 148 0 #2
+	vertex -204 148 0 #3
+	vertex -204 150 2 #4
+	vertex -199 150 2 #5
+
+	face
+		vertices 3 2 5 4
+		matref gras
+	endface
+
+	face
+		vertices 0 3 4 
+		matref gras
+	endface
+
+	face
+		vertices 2 1 5
+		matref gras
+	endface
+
+	face
+		vertices 1 0 4 5
+		matref gras
+	endface
+
+	face
+		vertices 2 3 0 1
+		matref gras
+	endface
+
+	inside -202 149.8 0.1
+	shift -9 0 0
+end
+
+
+# Treppe vor Podest
+
+mesh
+	vertex -213   153 5    #0
+	vertex -211.5 153 5    #1
+	vertex -208   153 2.5  #2
+	vertex -204   153 2.5  #3
+	vertex -200.5 153 5    #4
+	vertex -199   153 5    #5
+	vertex -213   150 5    #6
+	vertex -211.5 150 5    #7
+	vertex -208   150 2.5  #8
+	vertex -204   150 2.5  #9
+	vertex -200.5 150 5    #10
+	vertex -199   150 5    #11
+	vertex -213   153 0    #12
+	vertex -211.5 153 0    #13
+	vertex -208   153 0    #14
+	vertex -204   153 0    #15
+	vertex -200.5 153 0    #16
+	vertex -199   153 0    #17
+	vertex -213   150 0    #18
+	vertex -211.5 150 0    #19
+	vertex -208   150 0    #20
+	vertex -204   150 0    #21
+	vertex -200.5 150 0    #22
+	vertex -199   150 0    #23
+	vertex -208   146.5 0  #24
+	vertex -204   146.5 0  #25
+	
+	face
+		vertices 1 0 6 7
+		matref beton
+	endface
+
+	face
+		vertices 1 7 8 2 
+		matref betontreppe
+	endface
+
+	face
+		vertices 3 2 8 9
+		matref beton
+	endface
+
+	face
+		vertices 10 4 3 9
+		matref betontreppe
+	endface
+
+	face
+		vertices 11 5 4 10
+		matref beton
+	endface
+
+	face
+		vertices 6 0 12 18
+		matref beton
+	endface
+
+	face
+		vertices 0 1 13 12
+		matref beton
+	endface
+
+	face
+		vertices 1 2 14 13
+		matref beton
+	endface
+
+	face
+		vertices 2 3 15 14
+		matref beton
+	endface
+
+	face
+		vertices 3 4 16 15
+		matref beton
+	endface
+
+	face
+		vertices 4 5 17 16
+		matref beton
+	endface
+
+	face
+		vertices 5 11 23 17
+		matref beton
+	endface
+
+	face
+		vertices 11 10 22 23
+		matref beton
+	endface
+
+	face
+		vertices 10 9 21 22
+		matref beton
+	endface
+
+	face
+		vertices 25 21 9
+		matref beton
+	endface
+
+	face
+		vertices 9 8 24 25
+		matref betontreppe
+	endface
+
+	face
+		vertices 8 20 24
+		matref beton
+	endface
+
+	face
+		vertices 8 7 19 20
+		matref beton
+	endface
+
+	face
+		vertices 7 6 18 19
+		matref beton
+	endface
+
+	face
+		vertices 19 18 12 13
+		matref beton
+	endface
+
+	face
+		vertices 20 19 13 14
+		matref beton
+	endface
+
+	face
+		vertices 21 20 14 15
+		matref beton
+	endface
+
+	face
+		vertices 22 21 15 16
+		matref beton
+	endface
+
+	face
+		vertices 23 22 16 17
+		matref beton
+	endface
+
+	face
+		vertices 25 24 20 21
+		matref beton
+	endface
+
+	inside -206 152 0.5
+end
+
+# Betonsockel
+
+meshbox
+	position -205 177.5 0
+	size 11 24.5 5
+	outside matref beton
+end
+
+# INM-Rundung
+
+mesh
+	vertex -214.00 168.00 10 #0
+	vertex -213.49 171.88 10 #1
+	vertex -211.99 175.50 10 #2
+	vertex -209.61 178.61 10 #3
+	vertex -206.50 180.99 10 #4
+	vertex -202.88 182.49 10 #5
+	vertex -199.00 183.00 10 #6
+	vertex -199.00 190.00 10 #7
+	vertex -216.00 190.00 10 #8
+	vertex -216.00 168.00 10 #9
+	vertex -214.00 168.00 5  #10
+	vertex -213.49 171.88 5  #11
+	vertex -211.99 175.50 5  #12
+	vertex -209.61 178.61 5  #13
+	vertex -206.50 180.99 5  #14
+	vertex -202.88 182.49 5  #15
+	vertex -199.00 183.00 5  #16
+	vertex -199.00 190.00 5  #17
+	vertex -216.00 190.00 5  #18
+	vertex -216.00 168.00 5  #19
+	vertex -207.00 168.00 10 #20
+	vertex -206.73 170.07 10 #21
+	vertex -205.93 172.00 10 #22
+	vertex -204.66 173.66 10 #23
+	vertex -203.00 174.93 10 #24
+	vertex -201.07 175.73 10 #25
+	vertex -199.00 176.00 10 #26
+	vertex -207.00 168.00 15 #27
+	vertex -206.73 170.07 15 #28
+	vertex -205.93 172.00 15 #29
+	vertex -204.66 173.66 15 #30
+	vertex -203.00 174.93 15 #31
+	vertex -201.07 175.73 15 #32
+	vertex -199.00 176.00 15 #33
+	vertex -199.00 183.00 15 #34
+	vertex -199.00 190.00 15 #35
+	vertex -216.00 190.00 15 #36
+	vertex -216.00 168.00 15 #37
+	vertex -214.00 168.00 15 #38
+
+	face
+		vertices 10 11 1 0
+		matref inmblau
+	endface
+
+	face
+		vertices 11 12 2 1
+		matref inmblau
+	endface
+
+	face
+		vertices 12 13 3 2
+		matref inmtuer
+	endface
+
+	face
+		vertices 13 14 4 3
+		matref inmtuer
+	endface
+
+	face
+		vertices 14 15 5 4
+		matref inmblaufenster
+	endface
+
+	face
+		vertices 15 16 6 5
+		matref inmblau
+	endface
+
+	face
+		vertices 16 17 7 6
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 17 18 8 7
+		matref inmwand
+	endface
+
+	face
+		vertices 18 19 9 8
+		matref inmwand
+	endface
+
+	face
+		vertices 19 10 0 9
+		matref inmwand
+	endface
+
+	face
+		vertices 11 10 19 18
+		matref beton
+	endface
+
+	face
+		vertices 12 11 18
+		matref beton
+	endface
+
+	face
+		vertices 13 12 18
+		matref beton
+	endface
+
+	face
+		vertices 14 13 18
+		matref beton
+	endface
+
+	face
+		vertices 15 14 18
+		matref beton
+	endface
+
+	face
+		vertices 16 15 18 17
+		matref beton
+	endface
+
+	face
+		vertices 21 20 0 1
+		matref beton
+	endface
+
+	face
+		vertices 22 21 1 2
+		matref beton
+	endface
+
+	face
+		vertices 23 22 2 3
+		matref beton
+	endface
+
+	face
+		vertices 24 23 3 4
+		matref beton
+	endface
+
+	face
+		vertices 25 24 4 5
+		matref beton
+	endface
+
+	face
+		vertices 26 25 5 6
+		matref beton
+	endface
+
+	face
+		vertices 20 21 28 27
+		matref inmfenster
+	endface
+
+	face
+		vertices 21 22 29 28
+		matref inmfenster
+	endface
+
+	face
+		vertices 22 23 30 29
+		matref inmfenster
+	endface
+
+	face
+		vertices 23 24 31 30
+		matref inmfenster
+	endface
+
+	face
+		vertices 24 25 32 31
+		matref inmfenster
+	endface
+
+	face
+		vertices 25 26 33 32
+		matref inmfenster
+	endface
+
+	face
+		vertices 26 6 34 33
+		matref inmwand
+	endface
+
+	face
+		vertices 6 7 35 34
+		matref inmkreisfenster
+	endface
+
+	face 
+		vertices 7 8 36 35
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 8 9 37 36
+		matref inmwand
+	endface
+
+	face
+		vertices 9 0 38 37
+		matref inmtuer
+	endface
+
+	face
+		vertices 0 20 27 38
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 37 38 36
+		matref dach
+	endface
+
+	face
+		vertices 38 27 36
+		matref dach
+	endface
+
+	face
+		vertices 27 28 36
+		matref dach
+	endface
+
+	face
+		vertices 28 29 36
+		matref dach
+	endface
+
+	face
+		vertices 29 30 36
+		matref dach
+	endface
+
+	face
+		vertices 30 31 36
+		matref dach
+	endface
+
+	face
+		vertices 31 32 36
+		matref dach
+	endface
+
+	face
+		vertices 32 33 36
+		matref dach
+	endface
+
+	face
+		vertices 33 34 36
+		matref dach
+	endface
+
+	face
+		vertices 34 35 36
+		matref dach
+	endface
+
+	inside -215 189 7.5
+
+end
+
+arc
+	divisions 32
+	angle 360
+	position -212.74 173.69 5
+	size 1.5 1.5 4
+	outside matref gelbetuer
+end
+
+# DFKI-Rundung
+
+mesh
+	vertex -214.00 168.00 10 #0
+	vertex -213.49 171.88 10 #1
+	vertex -211.99 175.50 10 #2
+	vertex -209.61 178.61 10 #3
+	vertex -206.50 180.99 10 #4
+	vertex -202.88 182.49 10 #5
+	vertex -199.00 183.00 10 #6
+	vertex -199.00 190.00 10 #7
+	vertex -216.00 190.00 10 #8
+	vertex -216.00 168.00 10 #9
+	vertex -214.00 168.00 5  #10
+	vertex -213.49 171.88 5  #11
+	vertex -211.99 175.50 5  #12
+	vertex -209.61 178.61 5  #13
+	vertex -206.50 180.99 5  #14
+	vertex -202.88 182.49 5  #15
+	vertex -199.00 183.00 5  #16
+	vertex -199.00 190.00 5  #17
+	vertex -216.00 190.00 5  #18
+	vertex -216.00 168.00 5  #19
+	vertex -207.00 168.00 10 #20
+	vertex -206.73 170.07 10 #21
+	vertex -205.93 172.00 10 #22
+	vertex -204.66 173.66 10 #23
+	vertex -203.00 174.93 10 #24
+	vertex -201.07 175.73 10 #25
+	vertex -199.00 176.00 10 #26
+	vertex -207.00 168.00 15 #27
+	vertex -206.73 170.07 15 #28
+	vertex -205.93 172.00 15 #29
+	vertex -204.66 173.66 15 #30
+	vertex -203.00 174.93 15 #31
+	vertex -201.07 175.73 15 #32
+	vertex -199.00 176.00 15 #33
+	vertex -199.00 183.00 15 #34
+	vertex -199.00 190.00 15 #35
+	vertex -216.00 190.00 15 #36
+	vertex -216.00 168.00 15 #37
+	vertex -214.00 168.00 15 #38
+
+	face
+		vertices 10 11 1 0
+		matref inmblau
+	endface
+
+	face
+		vertices 11 12 2 1
+		matref inmblau
+	endface
+
+	face
+		vertices 12 13 3 2
+		matref inmtuer
+	endface
+
+	face
+		vertices 13 14 4 3
+		matref inmtuer
+	endface
+
+	face
+		vertices 14 15 5 4
+		matref inmblaufenster
+	endface
+
+	face
+		vertices 15 16 6 5
+		matref inmblau
+	endface
+
+	face
+		vertices 16 17 7 6
+		matref inmwand
+	endface
+
+	face
+		vertices 17 18 8 7
+		matref inmfenster
+	endface
+
+	face
+		vertices 18 19 9 8
+		matref inmwand
+	endface
+
+	face
+		vertices 19 10 0 9
+		matref inmwand
+	endface
+
+	face
+		vertices 11 10 19 18
+		matref beton
+	endface
+
+	face
+		vertices 12 11 18
+		matref beton
+	endface
+
+	face
+		vertices 13 12 18
+		matref beton
+	endface
+
+	face
+		vertices 14 13 18
+		matref beton
+	endface
+
+	face
+		vertices 15 14 18
+		matref beton
+	endface
+
+	face
+		vertices 16 15 18 17
+		matref beton
+	endface
+
+	face
+		vertices 21 20 0 1
+		matref beton
+	endface
+
+	face
+		vertices 22 21 1 2
+		matref beton
+	endface
+
+	face
+		vertices 23 22 2 3
+		matref beton
+	endface
+
+	face
+		vertices 24 23 3 4
+		matref beton
+	endface
+
+	face
+		vertices 25 24 4 5
+		matref beton
+	endface
+
+	face
+		vertices 26 25 5 6
+		matref beton
+	endface
+
+	face
+		vertices 20 21 28 27
+		matref inmfenster
+	endface
+
+	face
+		vertices 21 22 29 28
+		matref inmfenster
+	endface
+
+	face
+		vertices 22 23 30 29
+		matref inmfenster
+	endface
+
+	face
+		vertices 23 24 31 30
+		matref inmfenster
+	endface
+
+	face
+		vertices 24 25 32 31
+		matref inmfenster
+	endface
+
+	face
+		vertices 25 26 33 32
+		matref inmfenster
+	endface
+
+	face
+		vertices 26 6 34 33
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 6 7 35 34
+		matref inmwand
+	endface
+
+	face 
+		vertices 7 8 36 35
+		matref inmfenster
+	endface
+
+	face
+		vertices 8 9 37 36
+		matref inmwand
+	endface
+
+	face
+		vertices 9 0 38 37
+		matref inmfenster
+	endface
+
+	face
+		vertices 0 20 27 38
+		matref inmwand
+	endface
+
+	face
+		vertices 37 38 36
+		matref dach
+	endface
+
+	face
+		vertices 38 27 36
+		matref dach
+	endface
+
+	face
+		vertices 27 28 36
+		matref dach
+	endface
+
+	face
+		vertices 28 29 36
+		matref dach
+	endface
+
+	face
+		vertices 29 30 36
+		matref dach
+	endface
+
+	face
+		vertices 30 31 36
+		matref dach
+	endface
+
+	face
+		vertices 31 32 36
+		matref dach
+	endface
+
+	face
+		vertices 32 33 36
+		matref dach
+	endface
+
+	face
+		vertices 33 34 36
+		matref dach
+	endface
+
+	face
+		vertices 34 35 36
+		matref dach
+	endface
+
+	inside -215 189 7.5
+
+	rotation 180
+	shift -398 336 0
+end
+
+arc
+	divisions 32
+	angle 360
+	position -212.74 173.69 5
+	size 1.5 1.5 4
+	outside matref gelbetuer
+	shift 27.5 -11.38 0
+end
+
+# Noerdlicher Traegerbogem
+
+mesh
+	vertex -199.00 176.00 13.5 #0
+	vertex -196.93 175.73 13.5 #1
+	vertex -195.00 174.93 13.5 #2
+	vertex -193.34 173.66 13.5 #3
+	vertex -192.07 172.00 13.5 #4
+	vertex -191.27 170.07 13.5 #5
+	vertex -191.00 168.00 13.5 #6
+	vertex -199.00 176.30 13.5 #7
+	vertex -196.85 176.02 13.5 #8
+	vertex -194.85 175.19 13.5 #9
+	vertex -193.13 173.87 13.5 #10
+	vertex -191.81 172.15 13.5 #11
+	vertex -190.98 170.15 13.5 #12
+	vertex -190.70 168.00 13.5 #13
+	vertex -199.00 176.00 15   #14
+	vertex -196.93 175.73 15   #15
+	vertex -195.00 174.93 15   #16
+	vertex -193.34 173.66 15   #17
+	vertex -192.07 172.00 15   #18
+	vertex -191.27 170.07 15   #19
+	vertex -191.00 168.00 15   #20
+	vertex -199.00 176.30 15   #21
+	vertex -196.85 176.02 15   #22
+	vertex -194.85 175.19 15   #23
+	vertex -193.13 173.87 15   #24
+	vertex -191.81 172.15 15   #25
+	vertex -190.98 170.15 15   #26
+	vertex -190.70 168.00 15   #27
+
+	face
+		vertices 0 1 15 14
+		matref inmwand
+	endface
+
+	face
+		vertices 1 2 16 15
+		matref inmwand
+	endface
+
+	face
+		vertices 2 3 17 16
+		matref inmwand
+	endface
+
+	face
+		vertices 3 4 18 17
+		matref inmwand
+	endface
+
+	face
+		vertices 4 5 19 18
+		matref inmwand
+	endface
+
+	face
+		vertices 5 6 20 19
+		matref inmwand
+	endface
+
+	face
+		vertices 6 13 27 20
+		matref inmwand
+	endface
+
+	face
+		vertices 13 12 26 27
+		matref inmwand
+	endface
+
+	face
+		vertices 12 11 25 26
+		matref inmwand
+	endface
+
+	face
+		vertices 11 10 24 25
+		matref inmwand
+	endface
+
+	face
+		vertices 10 9 23 24
+		matref inmwand
+	endface
+
+	face
+		vertices 9 8 22 23
+		matref inmwand
+	endface
+
+	face
+		vertices 8 7 21 22
+		matref inmwand
+	endface
+
+	face
+		vertices 7 0 14 21
+		matref inmwand
+	endface
+
+	face
+		vertices 1 0 7 8
+		matref inmwand
+	endface
+
+	face
+		vertices 2 1 8 9
+		matref inmwand
+	endface
+
+	face
+		vertices 3 2 9 10
+		matref inmwand
+	endface
+
+	face
+		vertices 4 3 10 11
+		matref inmwand
+	endface
+
+	face
+		vertices 5 4 11 12
+		matref inmwand
+	endface
+
+	face
+		vertices 6 5 12 13
+		matref inmwand
+	endface
+
+	face
+		vertices 14 15 22 21
+		matref dach
+	endface
+
+	face
+		vertices 15 16 23 22
+		matref dach
+	endface
+
+	face
+		vertices 16 17 24 23
+		matref dach
+	endface
+
+	face
+		vertices 17 18 25 24
+		matref dach
+	endface
+
+	face
+		vertices 18 19 26 25
+		matref dach
+	endface
+
+	face
+		vertices 19 20 27 26
+		matref dach
+	endface
+end
+
+# Suedlicher Traegerbogem
+
+mesh
+	vertex -199.00 176.00 13.5 #0
+	vertex -196.93 175.73 13.5 #1
+	vertex -195.00 174.93 13.5 #2
+	vertex -193.34 173.66 13.5 #3
+	vertex -192.07 172.00 13.5 #4
+	vertex -191.27 170.07 13.5 #5
+	vertex -191.00 168.00 13.5 #6
+	vertex -199.00 176.30 13.5 #7
+	vertex -196.85 176.02 13.5 #8
+	vertex -194.85 175.19 13.5 #9
+	vertex -193.13 173.87 13.5 #10
+	vertex -191.81 172.15 13.5 #11
+	vertex -190.98 170.15 13.5 #12
+	vertex -190.70 168.00 13.5 #13
+	vertex -199.00 176.00 15   #14
+	vertex -196.93 175.73 15   #15
+	vertex -195.00 174.93 15   #16
+	vertex -193.34 173.66 15   #17
+	vertex -192.07 172.00 15   #18
+	vertex -191.27 170.07 15   #19
+	vertex -191.00 168.00 15   #20
+	vertex -199.00 176.30 15   #21
+	vertex -196.85 176.02 15   #22
+	vertex -194.85 175.19 15   #23
+	vertex -193.13 173.87 15   #24
+	vertex -191.81 172.15 15   #25
+	vertex -190.98 170.15 15   #26
+	vertex -190.70 168.00 15   #27
+
+	face
+		vertices 0 1 15 14
+		matref inmwand
+	endface
+
+	face
+		vertices 1 2 16 15
+		matref inmwand
+	endface
+
+	face
+		vertices 2 3 17 16
+		matref inmwand
+	endface
+
+	face
+		vertices 3 4 18 17
+		matref inmwand
+	endface
+
+	face
+		vertices 4 5 19 18
+		matref inmwand
+	endface
+
+	face
+		vertices 5 6 20 19
+		matref inmwand
+	endface
+
+	face
+		vertices 6 13 27 20
+		matref inmwand
+	endface
+
+	face
+		vertices 13 12 26 27
+		matref inmwand
+	endface
+
+	face
+		vertices 12 11 25 26
+		matref inmwand
+	endface
+
+	face
+		vertices 11 10 24 25
+		matref inmwand
+	endface
+
+	face
+		vertices 10 9 23 24
+		matref inmwand
+	endface
+
+	face
+		vertices 9 8 22 23
+		matref inmwand
+	endface
+
+	face
+		vertices 8 7 21 22
+		matref inmwand
+	endface
+
+	face
+		vertices 7 0 14 21
+		matref inmwand
+	endface
+
+	face
+		vertices 1 0 7 8
+		matref inmwand
+	endface
+
+	face
+		vertices 2 1 8 9
+		matref inmwand
+	endface
+
+	face
+		vertices 3 2 9 10
+		matref inmwand
+	endface
+
+	face
+		vertices 4 3 10 11
+		matref inmwand
+	endface
+
+	face
+		vertices 5 4 11 12
+		matref inmwand
+	endface
+
+	face
+		vertices 6 5 12 13
+		matref inmwand
+	endface
+
+	face
+		vertices 14 15 22 21
+		matref dach
+	endface
+
+	face
+		vertices 15 16 23 22
+		matref dach
+	endface
+
+	face
+		vertices 16 17 24 23
+		matref dach
+	endface
+
+	face
+		vertices 17 18 25 24
+		matref dach
+	endface
+
+	face
+		vertices 18 19 26 25
+		matref dach
+	endface
+
+	face
+		vertices 19 20 27 26
+		matref dach
+	endface
+
+	rotation 180
+	shift -398 336 0
+end
+
+# DFKI
+
+meshbox
+	position -182 145.5 5
+	size 1.5 1.5 5
+	outside matref inmblaufenster
+end
+
+meshbox
+	position -157 152.5 5
+	size 25 6.5 10
+	outside matref inmfenster
+end
+
+meshbox
+	position -145 152.5 0
+	size 3 2 5
+	outside matref beton
+end
+
+meshbox
+	position -135 152.5 0
+	size 2 2 5
+	outside matref beton
+end
+
+meshbox
+	position -145 145.5 5
+	size 1.5 1.5 5
+	outside matref inmblaufenster
+end
+
+meshbox
+	position -175 163.5 5
+	size 7 4.5 10
+	outside matref inmfenster
+end
+
+meshbox
+	position -167.5 163 5.5
+	size 0.5 4 9
+	outside matref inmblaufenster
+end
+
+meshbox
+	position -163.5 159.5 5.5
+	size 3.5 0.5 9
+	outside matref inmblaufenster
+end
+
+meshbox
+	position -198.85 152.5 0
+	size 0.15 6.5 5
+	outside matref beton
+end
+
+meshbox
+	position -182.85 152.5 0
+	size 0.15 6.5 5
+	outside matref beton
+end
+
+meshbox
+	position -176 160 0
+	size 7 7 5
+	outside matref beton
+end
+
+# Amphitheater
+
+  # oberste Stufe
+mesh
+	vertex -194.00 153.00 3.33 #0
+	vertex -183.00 153.00 3.33 #1
+	vertex -183.00 170.00 3.33 #2
+	vertex -185.33 170.31 3.33 #3
+	vertex -187.50 171.21 3.33 #4
+	vertex -189.36 172.64 3.33 #5
+	vertex -190.79 174.50 3.33 #6
+	vertex -191.69 176.67 3.33 #7
+	vertex -192.00 179.00 3.33 #8
+	vertex -194.00 179.00 3.33 #9
+	vertex -194.00 153.00 5    #10
+	vertex -183.00 153.00 5    #11
+	vertex -183.00 170.00 5    #12
+	vertex -185.33 170.31 5    #13
+	vertex -187.50 171.21 5    #14
+	vertex -189.36 172.64 5    #15
+	vertex -190.79 174.50 5    #16
+	vertex -191.69 176.67 5    #17
+	vertex -192.00 179.00 5    #18
+	vertex -194.00 179.00 5    #19
+
+	face
+		vertices 0 1 11 10
+		matref beton
+	endface
+
+	face
+		vertices 1 2 12 11
+		matref beton
+	endface
+
+	face
+		vertices 2 3 13 12
+		matref beton
+	endface
+
+	face
+		vertices 3 4 14 13
+		matref beton
+	endface
+
+	face	
+		vertices 4 5 15 14
+		matref beton
+	endface
+
+	face
+		vertices 5 6 16 15
+		matref beton
+	endface
+
+	face
+		vertices 6 7 17 16
+		matref beton
+	endface
+
+	face
+		vertices 7 8 18 17
+		matref beton
+	endface
+
+	face
+
+		vertices 8 9 19 18
+		matref beton
+	endface
+
+	face
+		vertices 9 0 10 19
+		matref beton
+	endface
+
+	face
+		vertices 1 0 3 2
+		matref beton
+	endface
+
+	face
+		vertices 0 4 3
+		matref beton
+	endface
+
+	face
+		vertices 0 5 4
+		matref beton
+	endface
+
+	face
+		vertices 0 6 5
+		matref beton
+	endface
+
+	face
+		vertices 0 7 6
+		matref beton
+	endface
+
+	face
+		vertices 0 9 8 7
+		matref beton
+	endface
+
+	face
+		vertices 10 11 12 13
+		matref beton
+	endface
+
+	face
+		vertices 10 13 14
+		matref beton
+	endface
+
+	face
+		vertices 10 14 15
+		matref beton
+	endface
+
+	face
+		vertices 10 15 16
+		matref beton
+	endface
+
+	face
+		vertices 10 16 17
+		matref beton
+	endface
+
+	face
+		vertices 10 17 18 19
+		matref beton
+	endface
+
+	inside -193.00 168.00 4.5
+end
+
+meshbox
+	position -193 181 3.33
+	size 1 2 1.67
+	matref beton
+end
+
+  # mittlere Stufe
+mesh
+	vertex -194.00 153.00 1.67 #0
+	vertex -183.00 153.00 1.67 #1
+	vertex -183.00 172.00 1.67 #2
+	vertex -184.81 172.24 1.67 #3
+	vertex -186.50 172.94 1.67 #4
+	vertex -187.94 174.05 1.67 #5
+	vertex -189.06 175.50 1.67 #6
+	vertex -189.76 177.19 1.67 #7
+	vertex -190.00 179.00 1.67 #8
+	vertex -194.00 179.00 1.67 #9
+	vertex -194.00 153.00 3.33 #10
+	vertex -183.00 153.00 3.33 #11
+	vertex -183.00 172.00 3.33 #12
+	vertex -184.81 172.24 3.33 #13
+	vertex -186.50 172.94 3.33 #14
+	vertex -187.94 174.05 3.33 #15
+	vertex -189.06 175.50 3.33 #16
+	vertex -189.76 177.19 3.33 #17
+	vertex -190.00 179.00 3.33 #18
+	vertex -194.00 179.00 3.33 #19
+
+	face
+		vertices 0 1 11 10
+		matref beton
+	endface
+
+	face
+		vertices 1 2 12 11
+		matref beton
+	endface
+
+	face
+		vertices 2 3 13 12
+		matref beton
+	endface
+
+	face
+		vertices 3 4 14 13
+		matref beton
+	endface
+
+	face	
+		vertices 4 5 15 14
+		matref beton
+	endface
+
+	face
+		vertices 5 6 16 15
+		matref beton
+	endface
+
+	face
+		vertices 6 7 17 16
+		matref beton
+	endface
+
+	face
+		vertices 7 8 18 17
+		matref beton
+	endface
+
+	face
+
+		vertices 8 9 19 18
+		matref beton
+	endface
+
+	face
+		vertices 9 0 10 19
+		matref beton
+	endface
+
+	face
+		vertices 1 0 3 2
+		matref beton
+	endface
+
+	face
+		vertices 0 4 3
+		matref beton
+	endface
+
+	face
+		vertices 0 5 4
+		matref beton
+	endface
+
+	face
+		vertices 0 6 5
+		matref beton
+	endface
+
+	face
+		vertices 0 7 6
+		matref beton
+	endface
+
+	face
+		vertices 0 9 8 7
+		matref beton
+	endface
+
+	face
+		vertices 10 11 12 13
+		matref gras
+	endface
+
+	face
+		vertices 10 13 14
+		matref gras
+	endface
+
+	face
+		vertices 10 14 15
+		matref gras
+	endface
+
+	face
+		vertices 10 15 16
+		matref gras
+	endface
+
+	face
+		vertices 10 16 17
+		matref gras
+	endface
+
+	face
+		vertices 10 17 18 19
+		matref gras
+	endface
+
+	inside -193.00 168.00 2
+end
+
+meshbox
+	position -192 181 1.67
+	size 2 2 1.66
+	outside matref beton
+	top matref gras
+end
+
+  # untere Stufe
+mesh
+	vertex -194.00 153.00 0    #0
+	vertex -183.00 153.00 0    #1
+	vertex -183.00 174.00 0    #2
+	vertex -184.29 174.17 0    #3
+	vertex -185.50 174.67 0    #4
+	vertex -186.53 175.46 0    #5
+	vertex -187.33 176.50 0    #6
+	vertex -187.82 177.71 0    #7
+	vertex -188.00 179.00 0    #8
+	vertex -194.00 179.00 0    #9
+	vertex -194.00 153.00 1.67 #10
+	vertex -183.00 153.00 1.67 #11
+	vertex -183.00 174.00 1.67 #12
+	vertex -184.29 174.17 1.67 #13
+	vertex -185.50 174.67 1.67 #14
+	vertex -186.53 175.46 1.67 #15
+	vertex -187.33 176.50 1.67 #16
+	vertex -187.82 177.71 1.67 #17
+	vertex -188.00 179.00 1.67 #18
+	vertex -194.00 179.00 1.67 #19
+
+	face
+		vertices 0 1 11 10
+		matref beton
+	endface
+
+	face
+		vertices 1 2 12 11
+		matref beton
+	endface
+
+	face
+		vertices 2 3 13 12
+		matref beton
+	endface
+
+	face
+		vertices 3 4 14 13
+		matref beton
+	endface
+
+	face	
+		vertices 4 5 15 14
+		matref beton
+	endface
+
+	face
+		vertices 5 6 16 15
+		matref beton
+	endface
+
+	face
+		vertices 6 7 17 16
+		matref beton
+	endface
+
+	face
+		vertices 7 8 18 17
+		matref beton
+	endface
+
+	face
+
+		vertices 8 9 19 18
+		matref beton
+	endface
+
+	face
+		vertices 9 0 10 19
+		matref beton
+	endface
+
+	face
+		vertices 1 0 3 2
+		matref beton
+	endface
+
+	face
+		vertices 0 4 3
+		matref beton
+	endface
+
+	face
+		vertices 0 5 4
+		matref beton
+	endface
+
+	face
+		vertices 0 6 5
+		matref beton
+	endface
+
+	face
+		vertices 0 7 6
+		matref beton
+	endface
+
+	face
+		vertices 0 9 8 7
+		matref beton
+	endface
+
+	face
+		vertices 10 11 12 13
+		matref gras
+	endface
+
+	face
+		vertices 10 13 14
+		matref gras
+	endface
+
+	face
+		vertices 10 14 15
+		matref gras
+	endface
+
+	face
+		vertices 10 15 16
+		matref gras
+	endface
+
+	face
+		vertices 10 16 17
+		matref gras
+	endface
+
+	face
+		vertices 10 17 18 19
+		matref gras
+	endface
+
+	inside -193.00 168.00 1
+end
+
+meshbox
+	position -191 181 0
+	size 3 2 1.67
+	outside matref beton
+	top matref gras
+end
+
+# Weg zur Mensa
+
+mesh
+	vertex -194 202 5 #0
+	vertex -184 202 0 #1
+	vertex -184 197 0 #2
+	vertex -187 183 0 #3
+	vertex -194 183 0 #4
+	vertex -194 183 5 #5
+	vertex -194 197 5 #6
+	vertex -194 197 0 #7
+	vertex -194 202 0 #8
+
+	face
+		vertices 0 6 2 1
+		matref beton
+	endface
+
+	face
+		vertices 2 6 3
+		matref gras
+	endface
+
+	face
+		vertices 6 5 3
+		matref gras
+	endface
+
+	face
+		vertices 6 7 4 5
+		matref beton
+	endface
+
+	face
+		vertices 4 3 5
+		matref gras
+	endface
+
+	face
+		vertices 1 8 0
+		matref gras
+	endface
+
+	face
+		vertices 8 1 2 7
+		matref gras
+	endface
+
+	face
+		vertices 8 7 6 0
+		matref beton
+	endface
+
+	face
+		vertices 2 3 4 7
+		matref beton
+	endface
+
+	inside -190 197 0.1
+end
+
+# Weg zum Parkplatz
+
+mesh
+	vertex -194 202 5 #0
+	vertex -199 202 5 #1
+	vertex -216 202 5 #2
+	vertex -216 220 0 #3
+	vertex -199 214 0 #4
+	vertex -194 214 0 #5
+	vertex -194 202 0 #6
+	vertex -199 202 0 #7
+	vertex -216 202 0 #8
+
+	face
+		vertices 1 0 5 4
+		matref beton
+	endface
+
+	face
+		vertices 2 1 4
+		matref gras
+	endface
+
+	face
+		vertices 4 3 2
+		matref gras
+	endface
+
+	face
+		vertices 2 3 8
+		matref gras
+	endface
+
+	face
+		vertices 8 7 1 2
+		matref gras
+	endface
+
+	face
+		vertices 7 6 0 1
+		matref beton
+	endface
+
+	face
+		vertices 5 0 6
+		matref gras
+	endface
+
+	face
+		vertices 4 5 6 7
+		matref beton
+	endface
+
+	face
+		vertices 3 4 7 8
+		matref gras
+	endface
+
+	inside -194 203 1
+end
+
+# Uebergang zu IWI
+meshbox
+	position -131 152.5 5
+	size 1 6 10
+	outside matref inmtuer
+end
+
+#IWI
+meshbox
+	position -123 173 5
+	size 7 30 10
+	outside matref iwitextur
+end
+
+meshbox
+	position -123 174.5 0
+	size 7 28.5 5
+	outside matref iwitextur
+end
+
+meshbox
+	position -123 173 15
+	size 5 24 5
+	outside matref iwitextur
+end
+
+mesh
+	vertex -109 173 0  #0
+	vertex -109 160 0  #1
+	vertex -116 160 0  #2
+	vertex -116 173 0  #3
+	vertex -116 160 15 #4
+	vertex -116 173 15 #5
+
+	face
+		vertices 2 3 0 1
+		matref inmwand
+	endface
+
+	face
+		vertices 3 2 4 5
+		matref iwitextur
+	endface
+
+	face
+		vertices 2 1 4
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 0 3 5
+		matref inmkreisfenster
+	endface
+
+	face
+		vertices 1 0 5 4
+		matref iwitextur
+	endface
+
+	inside -115 166.5 1
+end
+
+meshbox
+	position -129.7 137.7 0
+	size 0.3 0.3 15
+	matref inmwand
+end
+
+meshbox
+	position -129.7 140.5 9.5
+	size 0.3 2.5 0.5
+	matref inmwand
+end
+
+meshbox
+	position -129.7 140.5 14.5
+	size 0.3 2.5 0.5
+	matref inmwand
+end
+
+meshbox
+	position -129.7 208.3 0
+	size 0.3 0.3 15
+	matref inmwand
+end
+
+meshbox
+	position -129.7 205.5 14.5
+	size 0.3 2.5 0.5
+	matref inmwand
+end
+
+arc
+	divisions 16
+	angle 360
+	position -127 205.5 0
+	size 0.3 0.3 15
+	outside matref inmblau
+end
+
+meshbox
+	position -127 205.25 4.7
+	size 2 2.25 0.3
+	outside matref beton
+end
+
+meshbox
+	position -127 205.25 9.7
+	size 2 2.25 0.3
+	outside matref beton
+end
+
+meshbox
+	position -127 205.25 14.7
+	size 2 2.25 0.3
+	outside matref beton
+end
+
+########################
+# Wagenlenker Automedon
+########################
+
+# sockel, rostig, gross
+mesh
+        vertex -201.10 166.95  5.00 #0
+      	vertex -200.05 165.90  5.00 #1
+	vertex -199.00 169.05  5.00 #2
+	vertex -197.95 168.00  5.00 #3
+	vertex -200.26 167.79  7.00 #4
+	vertex -199.21 166.74  7.00 #5
+	vertex -200.05 168.00  9.00 #6
+	vertex -199.00 166.95  9.00 #7
+        vertex -200.05 168.00 12.00 #8
+	vertex -199.00 166.95 12.00 #9
+	vertex -199.00 169.05 14.50 #10
+	vertex -197.95 168.00 14.50 #11
+
+        # boden
+	face
+	        vertices 1 0 2 3
+	        matref automedonsockel
+        endface
+
+        #front
+	face
+	        vertices 5 4 0 1
+	        matref automedonsockel
+        endface
+        face
+	        vertices 7 6 4 5
+	        matref automedonsockel
+        endface
+ 	face
+	        vertices 9 8 6 7
+	        matref automedonsockel
+        endface
+
+        # lehne
+  	face
+	        vertices 11 10 8 9
+	        matref automedonsockel
+        endface
+
+        # rueckseite
+       	face
+	        vertices 10 11 3 2
+	        matref automedonsockel
+        endface
+
+        # rechte seite
+   	face
+	        vertices 5 1 3
+	        matref automedonsockel
+        endface
+    	face
+	        vertices 7 5 3
+	        matref automedonsockel
+        endface
+       	face
+	        vertices 9 7 3
+	        matref automedonsockel
+        endface
+      	face
+	        vertices 11 9 3
+	        matref automedonsockel
+        endface
+
+        # linke seite
+      	face
+	        vertices 4 2 0
+	        matref automedonsockel
+        endface
+       	face
+	        vertices 6 2 4
+	        matref automedonsockel
+        endface
+       	face
+	        vertices 8 2 6
+	        matref automedonsockel
+        endface
+       	face
+	        vertices 10 2 8
+	        matref automedonsockel
+        endface
+        inside -199.00 169.00 6.0
+end
+
+
+# rechtes grosses rad
+mesh
+      	vertex -198.79 166.74 12.00 #0
+	vertex -198.50 167.03 12.50 #1
+	vertex -198.37 167.16 12.00 #2
+	vertex -198.50 167.03 11.50 #3
+	vertex -198.79 166.74 11.40 #4
+	vertex -199.08 166.45 11.50 #5
+	vertex -199.21 166.32 12.00 #6
+	vertex -199.08 166.45 12.50 #7
+	vertex -198.79 166.74 12.60 #8
+
+       	face
+	        vertices 0 1 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 2 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 8
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 1
+	        matref automedonmetall
+        endface
+
+       	face
+	        vertices 0 2 1
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 1 8
+	        matref automedonmetall
+        endface
+end
+
+
+# rechtes kleines rad
+mesh
+	vertex -198.90 166.85 12.00 #0
+	vertex -198.68 167.07 12.32 #1
+	vertex -198.58 167.17 12.00 #2
+	vertex -198.68 167.07 11.68 #3
+	vertex -198.90 166.85 11.55 #4
+	vertex -199.12 166.63 11.68 #5
+	vertex -199.22 166.53 12.00 #6
+	vertex -199.12 166.63 12.32 #7
+	vertex -198.90 166.85 12.45 #8
+
+       	face
+	        vertices 0 1 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 2 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 8
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 1
+	        matref automedonmetall
+        endface
+
+       	face
+	        vertices 0 2 1
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 1 8
+	        matref automedonmetall
+        endface
+end
+
+
+# linkes kleines rad
+mesh
+	vertex -200.15 168.10 12.00 #0
+	vertex -199.93 168.32 12.32 #1
+	vertex -199.83 168.42 12.00 #2
+	vertex -199.93 168.32 11.68 #3
+	vertex -200.15 168.10 11.55 #4
+	vertex -200.37 167.88 11.68 #5
+	vertex -200.45 167.78 12.00 #6
+	vertex -200.37 167.88 12.32 #7
+	vertex -200.15 168.10 12.45 #8
+
+       	face
+	        vertices 0 1 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 2 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 8
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 1
+	        matref automedonmetall
+        endface
+
+       	face
+	        vertices 0 2 1
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 1 8
+	        matref automedonmetall
+        endface
+end
+
+
+# linkes grosses rad
+mesh
+      	vertex -200.26 168.21 12.00 #0
+	vertex -199.97 168.50 12.50 #1
+	vertex -199.84 168.63 12.00 #2
+	vertex -199.97 168.50 11.50 #3
+	vertex -200.26 168.21 11.40 #4
+	vertex -200.55 167.92 11.50 #5
+	vertex -200.68 167.79 12.00 #6
+	vertex -200.55 167.92 12.50 #7
+	vertex -200.26 168.21 12.60 #8
+
+       	face
+	        vertices 0 1 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 2 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 8
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 1
+	        matref automedonmetall
+        endface
+
+       	face
+	        vertices 0 2 1
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 3 2
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 4 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 5 4
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 6 5
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 7 6
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 8 7
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 1 8
+	        matref automedonmetall
+        endface
+end
+
+
+# fusskante
+mesh
+        vertex -200.05 168.00 12.00 #0
+	vertex -199.00 166.95 12.00 #1
+        vertex -200.35 167.70 12.20 #2
+	vertex -199.30 166.65 12.20 #3
+
+       	face
+	        vertices 1 0 2 3
+	        matref automedonmetall
+        endface
+        face
+	        vertices 0 1 3 2
+	        matref automedonmetall
+        endface
+end
+
+# linker flügel
+mesh
+	vertex -201.43 171.24 14.46 #0
+        vertex -201.44 171.23 14.16 #1
+        vertex -200.58 170.38 14.20 #2
+        vertex -200.58 170.38 13.90 #3
+        vertex -199.56 169.36 14.20 #4
+        vertex -199.56 169.36 13.90 #5
+
+	vertex -201.47 171.27 14.06 #6
+	vertex -201.46 171.26 13.98 #7
+	vertex -200.81 170.61 13.72 #8
+	vertex -200.58 170.38 13.58 #9
+	vertex -200.58 170.38 13.50 #10
+	vertex -200.21 170.01 13.70 #11
+	vertex -199.56 169.36 13.88 #12
+	vertex -199.56 169.36 13.80 #13
+
+	# oben
+        face
+		vertices 0 1 2
+		matref automedonmetall
+        endface
+        face
+		vertices 2 1 3
+		matref automedonmetall
+        endface
+        face
+		vertices 2 3 4
+		matref automedonmetall
+        endface
+        face
+		vertices 4 3 5
+		matref automedonmetall
+        endface
+
+        face
+		vertices 2 1 0
+		matref automedonmetall
+        endface
+        face
+		vertices 3 1 2
+		matref automedonmetall
+        endface
+        face
+		vertices 4 3 2
+		matref automedonmetall
+        endface
+        face
+		vertices 5 3 4
+		matref automedonmetall
+        endface
+
+	# unten
+        face
+		vertices 6 7 8
+		matref automedonmetall
+        endface
+        face
+		vertices 8 7 10
+		matref automedonmetall
+        endface
+        face
+		vertices 8 10 11
+		matref automedonmetall
+        endface
+        face
+		vertices 11 10 13
+		matref automedonmetall
+        endface
+        face
+		vertices 12 11 13
+		matref automedonmetall
+        endface
+
+        face
+		vertices 8 7 6
+		matref automedonmetall
+        endface
+        face
+		vertices 10 7 8
+		matref automedonmetall
+        endface
+        face
+		vertices 11 10 8
+		matref automedonmetall
+        endface
+        face
+		vertices 13 10 11
+		matref automedonmetall
+        endface
+        face
+		vertices 13 11 12
+		matref automedonmetall
+        endface
+
+	# vorne
+
+end
+
+##################
+# Sonstige
+##################
+
+box
+	position -299 -95 0
+	size 11 21 10
+end
+
+box
+	position -240 52 0
+	size 11 16 5
+end
+
+box
+	position -254 65 0
+	size 3 3 5
+end
+
+box
+	position -176 -18 0
+	size 3 22 5
+end
+
+box
+	position 10 -60 0
+	size 11 11 20
+end
+
+box
+	position -185 15 0
+	size 12 6 5
+end
+
+box
+	position -398 60 0
+	size 7 17 10
+end
+
+box
+	position -398 92 0
+	size 7 10 10
+end
+
+box
+	position -390 100 0
+	size 7 10 10
+end
